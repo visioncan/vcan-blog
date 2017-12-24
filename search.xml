@@ -1,0 +1,932 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  
+  
+    
+    <entry>
+      <title><![CDATA[來用 Sketch 畫你的 UI 吧]]></title>
+      <url>http://blog.visioncan.com/2014/moved-to-sketch/</url>
+      <content type="html"><![CDATA[<p><br><img src="https://farm3.staticflickr.com/2943/15140862879_55564a299a_z.jpg" width="640" class="nofancybox" alt="WelcometoSketch3_hero"></p>
+<p>在之前就聽說過這個黃黃的鑽石 <a href="http://bohemiancoding.com/sketch/" target="_blank" rel="noopener">Sketch</a> 來畫 UI 相當好用，就趁當時 Sketch 3 推出時入手了，再親身體驗過後，我推薦用 Sketch 來畫你的 UI，以下跟大家簡單分享幾個我回不去 Photoshop 的特點:</p>
+<h3 id="超方便的圖片匯出"><a href="#超方便的圖片匯出" class="headerlink" title="超方便的圖片匯出"></a>超方便的圖片匯出</h3><p>因應 Retina 的螢幕，Sketch 可以很方便的一次輸出多個倍數匯出，傳統用 Photoshop 可能得先輸出 2x 再去縮 1x，另一個好處是 Sketch 是向量的，可以先畫 1x 再輸出 2x 甚至更大 3x，若要支援甫推出的 <a href="http://www.apple.com/iphone-6/display/" target="_blank" rel="noopener">iPhone 6 Plus</a> 可說是無痛升級 3x!<br>註: 其實 Photoshop 也是可以向量，只是用起來不那麼方便!</p>
+<p>我之前的作法給大家參考一下，由於我是使用 Macbook Retina 螢幕，所以我是先畫 2x，再去縮放 0.5 倍及 1.5 倍:<br><img src="https://farm4.staticflickr.com/3897/15204418885_7b05006863.jpg" width="500" class="nofancybox" alt="sk_image_output"><br><img src="https://farm4.staticflickr.com/3837/15017853218_9f5e139d85.jpg" width="500" class="nofancybox" alt="sk_image_output2"></p>
+<a id="more"></a>
+<p>另一個亮點就是不用特地隱藏其它圖層可以直接輸出我要的圖層，過往使用 Photoshop 得先隱藏某些圖層才能再輸出(Save to Web)，但若是用 Sketch 的 slice 切片功能還是得隱藏部份圖層就是。</p>
+<p>輸出還有一個很方便的功能，就是在預覽區裡就可以直接使用拖拉輸出圖片了，一個動作就將檔案加到寄件附件裡!</p>
+<video controls preload="auto"><br><source src="/images/2014/sk_feature1.webm" type="video/webm"><br><source src="/images/2014/sk_feature1.mp4" type="video/mp4"><br>Your Browser don\’t support this HTML5 Video</video>
+
+
+<h3 id="相對間距顯示"><a href="#相對間距顯示" class="headerlink" title="相對間距顯示"></a>相對間距顯示</h3><p>按下 option 再移動可以方便的知道物件間距是多少，透過不同物件中移動可以很快速的知道相對的座標及間距或是否有置中。</p>
+<video controls preload="auto"><br><source src="/images/2014/sk_feature2.webm" type="video/webm"><br><source src="/images/2014/sk_feature2.mp4" type="video/mp4"><br>Your Browser don\’t support this HTML5 Video</video>
+
+
+<h3 id="多層的填色、外框、陰影"><a href="#多層的填色、外框、陰影" class="headerlink" title="多層的填色、外框、陰影"></a>多層的填色、外框、陰影</h3><p>元素可以有很多層的填色、外框等，效果可以疊加，另一方面在單一元素的 A/B test 很好用啊~</p>
+<video controls preload="auto"><br><source src="/images/2014/sk_feature3.webm" type="video/webm"><br><source src="/images/2014/sk_feature3.mp4" type="video/mp4"><br>Your Browser don\’t support this HTML5 Video</video>
+
+
+<h3 id="建立可重用-symbols、text-styles"><a href="#建立可重用-symbols、text-styles" class="headerlink" title="建立可重用 symbols、text styles"></a>建立可重用 symbols、text styles</h3><p>這也是我覺得 Sketch 很大的一個亮點，把元素轉成 symbols，像是一個模組一樣可以重複使用，要修改是同步的，假如以一個 iOS App 來說，我有個畫面都各有一個褐色的 Navigation Bar，萬一要改成白色底、字體，在 Photoshop 要怎麼作?</p>
+<video controls preload="auto"><br><source src="/images/2014/sk_feature4.webm" type="video/webm"><br><source src="/images/2014/sk_feature4.mp4" type="video/mp4"><br>Your Browser don\’t support this HTML5 Video</video>
+
+
+<h3 id="背景模糊"><a href="#背景模糊" class="headerlink" title="背景模糊"></a>背景模糊</h3><p>我覺得這是針對 iOS7 來的吧!! 可以很輕易的不用在複製圖層打模糊就作這樣的效果!</p>
+<video controls preload="auto"><br><source src="/images/2014/sk_feature5.webm" type="video/webm"><br><source src="/images/2014/sk_feature5.mp4" type="video/mp4"><br>Your Browser don\’t support this HTML5 Video</video>
+
+
+<h3 id="Artboard"><a href="#Artboard" class="headerlink" title="Artboard"></a>Artboard</h3><p>也算是一個 Sketch 的特色，一個檔裡可分很多 Page，而 Page 裡可以放很多 Artboard，可以想像 Artboard 是 App 中某個 Tab 裡每個流程畫面，而用 Page 來區分不同 Tab，另一個也是不錯用法就是利用不同的 Artboard 來作 app 的各種 size 的 icon。<br><img src="https://farm4.staticflickr.com/3852/15296960056_581fdbf134.jpg" width="500" class="nofancybox" alt="sk_feature_artboard"></p>
+<p>還有人用<a href="https://github.com/NathanRutzky/Generate-GIF" target="_blank" rel="noopener">多個 Artboard 來作 gif 動畫</a> XD</p>
+<h3 id="Plugins"><a href="#Plugins" class="headerlink" title="Plugins"></a>Plugins</h3><p>好的工具就會有一堆外掛支援，Sketch 是使用 JSTalk 作為 plugin 主要語言。<br>推薦外掛管理工具 <a href="http://sketchtoolbox.com/" target="_blank" rel="noopener">Sketch Toolbox</a> 有超多外掛整理好，直接下載安裝到指定目錄!</p>
+<p><a href="http://sketchtoolbox.com/" target="_blank" rel="noopener"><img src="https://farm6.staticflickr.com/5579/15135038847_422b0ba3cc.jpg" width="500" class="nofancybox" alt="Sketch_Toolbox_Screenshot"></a></p>
+<h3 id="Command-Line"><a href="#Command-Line" class="headerlink" title="Command Line"></a>Command Line</h3><p>另外一個我覺得也是 Sketch 厲害的地方就是可以使用 <a href="http://bohemiancoding.com/sketch/tool/" target="_blank" rel="noopener">SketchTool</a> 以 Command Line 方式將素材輸出，可以看這篇<a href="http://mdznr.roon.io/automatically-exporting-assets-from-sketch-into-xcode" target="_blank" rel="noopener">自動輸出素材到 Xcode</a> 有很好的範例，真強大啊!<br><div class="video-container"><iframe src="//player.vimeo.com/video/93527998" frameborder="0" allowfullscreen></iframe></div></p>
+<h3 id="Paparazzi-app"><a href="#Paparazzi-app" class="headerlink" title="Paparazzi app"></a>Paparazzi app</h3><p>另一個也是我覺得很 cool 的應用，使用 <a href="https://derailer.org/paparazzi/" target="_blank" rel="noopener">Paparazzi</a> 瀏覽網頁，把所有元素拉到 Sketch，boom! 好了~ 可以將現有頁面立刻使用 Sketch 設計。<br><div class="video-container"><iframe src="//www.youtube.com/embed/9cgHQyXm4_Y" frameborder="0" allowfullscreen></iframe></div></p>
+<p>##結論:<br>今天也不是要批評 Photoshop 有多麼不好用，只是專注在 UI Design 上，可能有其它比較好的選擇，如果要作 Web、App UI，或許 Sketch 是個非常好用的工具，但如果要修圖、調整影像、照片、栽切? 還是乖乖用強桿的 Photoshop 吧!</p>
+<p>##缺點:<br>再怎麼好的工具多少還是有他的缺點的，Sketch 一開始我比較大的不習慣是沒有像 Photoshop 那樣多又方便的快速鍵，熟悉 Photoshop 快速鍵的一時會有點難轉換到 Sketch，需要一點時間上手~ </p>
+<p>##資源下載:<br><a href="http://www.sketchappsources.com/" target="_blank" rel="noopener">SketchAppSources</a><br><a href="http://www.sketchtips.info/" target="_blank" rel="noopener">Sketch Tips</a><br><a href="https://medium.com/sketch-tricks" target="_blank" rel="noopener">Sketch Tricks</a><br><a href="http://www.sketchcasts.net/" target="_blank" rel="noopener">SketchCasts</a><br><a href="http://learn.ustwo.com/sketch-resources" target="_blank" rel="noopener">ustwo 提供的相關資源</a></p>
+<p>也歡迎來 <a href="https://www.facebook.com/groups/sketchapptw/" target="_blank" rel="noopener">Sketch.tw FB 社團頁</a> 來討論喔!<br>Happy UI Design!</p>
+<p><small><br>本文使用到的素材:<br><a href="http://www.teehanlax.com/tools/iphone-sketch-app/" target="_blank" rel="noopener">iPhone GUI for Sketch </a><br><a href="https://github.com/timuric/Content-generator-sketch-plugin" target="_blank" rel="noopener">Content Generator for Sketch</a><br></small></p>
+]]></content>
+      
+        <categories>
+            
+            <category> Development </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Sketch </tag>
+            
+            <tag> iOS </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Cask 讓 OSX 安裝軟體更有效率]]></title>
+      <url>http://blog.visioncan.com/2014/introducing-cask/</url>
+      <content type="html"><![CDATA[<p>之前因為<a href="http://blog.visioncan.com/2014/unboxing-macbookpro-retina/">買了 MacbookPro Retina</a> 而要安裝新舊 2 台電腦，就在想有沒有比較方便的安裝方法，就無意間在 github 搜到，今天來介紹連安裝軟體也這麼潮 (誤)的 caskroom。</p>
+<p>如 <a href="caskroom.io">caskroom</a> 官網所說「“To install, drag this icon…” no more!」<br>你不需要在搜尋…然後下載某個軟體的 dmg… 然後掛載… 然後拖拉 app 到 application 資料夾… 要安裝幾十個軟體，這樣的步驟就要一直重復! 少說至少也要花個半天才能搞定!<br>而 caskroom 解決這樣的問題，一切只要在終端機打上一行指令，軟體就幫你安裝好了，要安裝很多軟體? 把要裝的先 list 起來，一次裝完就搞定，超方便啊!!!  但前提這些軟體都是沒有在 Mac App Store 上架的軟體，當然也不會有 Adobe 的主要的幾個重量級軟體。</p>
+<a id="more"></a>
+<h2 id="那就來安裝吧"><a href="#那就來安裝吧" class="headerlink" title="那就來安裝吧!"></a>那就來安裝吧!</h2><p>由於 OSX 上有的套件需要作編譯後才能使用，所以我們得先裝 Xcode Command Tool。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"># install xcode command tool</span><br><span class="line">xcode-select --install</span><br><span class="line"># check</span><br><span class="line">xcode-select -p</span><br></pre></td></tr></table></figure>
+<p>再來裝 <a href="http://brew.sh" target="_blank" rel="noopener">Homebrew</a> , Homebrew 是 Mac OSX 上的的套件管理工具，是方便安裝管理 OSX 裡需要用到但預設沒安裝的套件。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ruby -e &quot;$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)&quot;</span><br></pre></td></tr></table></figure>
+<p>最後才裝 caskroom</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">brew install caskroom/cask/brew-cask</span><br></pre></td></tr></table></figure>
+<h2 id="接下來就使用-Caskroom-來裝你需要的軟體"><a href="#接下來就使用-Caskroom-來裝你需要的軟體" class="headerlink" title="接下來就使用 Caskroom 來裝你需要的軟體!"></a>接下來就使用 Caskroom 來裝你需要的軟體!</h2><p>比如我要裝 Google Chrome, 只要輸入</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">brew cask install google-chrome</span><br></pre></td></tr></table></figure>
+<p>cask 就幫你裝完了耶!!!!<br>那我要裝很多個軟體呢? 你可以….<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"># 一次輸入多行</span><br><span class="line">brew cask install google-chrome</span><br><span class="line">brew cask install firefox</span><br><span class="line">brew cask install onepassword</span><br><span class="line"># 也可以像這樣</span><br><span class="line">brew cask install google-chrome firefox onepassword</span><br></pre></td></tr></table></figure></p>
+<p>然後我是不是只要把要裝的寫在一個<code>.sh</code>檔，之後就讓終端機跑就好了! 不用 10 分鐘就裝完我需要的軟體。<br>要注意的是有的軟體安裝完需要權限，記得在去終端機打一下 password。</p>
+<p>移除只要 uninstall 就好:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">brew cask uninstall google-chrome</span><br></pre></td></tr></table></figure></p>
+<h3 id="搜尋"><a href="#搜尋" class="headerlink" title="搜尋"></a>搜尋</h3><p>可以搜尋 caskroom 有提供的軟體，還蠻多的，若沒有也可以去<a href="https://github.com/caskroom/homebrew-cask/blob/master/CONTRIBUTING.md" target="_blank" rel="noopener">貢獻</a>一下<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">brew cask search &lt;軟體名&gt;</span><br></pre></td></tr></table></figure></p>
+<h3 id="更新軟體"><a href="#更新軟體" class="headerlink" title="更新軟體"></a>更新軟體</h3><p>可以執行下列來更新 cask 的軟體列表。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">brew cask update 或 brew update</span><br></pre></td></tr></table></figure></p>
+<p>可以看更多的<a href="https://github.com/caskroom/homebrew-cask/blob/master/USAGE.md" target="_blank" rel="noopener">使用及設定說明</a></p>
+<h2 id="設定"><a href="#設定" class="headerlink" title="設定"></a>設定</h2><p>而 caskroom 預設會把軟體裝在系統的 <code>/opt/homebrew-cask/Caskroom/</code> 資料夾下，然後會在使用者的 <code>~/Applications/</code> 目錄下建立一個軟體的替身。<br>如果想改變安裝軟體捷徑放的位置，有 2 種方法:<br>一個是每次安裝時帶入 <code>--appdir=/path</code> 或是不想每次安裝都輸入，可以在<code>.bash_profile</code> 或 <code>.zshenv</code> 設定一個永久的:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">export HOMEBREW_CASK_OPTS=&quot;--appdir=/Applications --caskroom=/etc/Caskroom&quot;</span><br></pre></td></tr></table></figure>
+<p>更多的<a href="https://github.com/caskroom/homebrew-cask/blob/master/USAGE.md#options" target="_blank" rel="noopener">設定說明</a><br>還有當然若不想要每次都打 <code>brew cask</code> 有點麻煩，你還可以加入 <code>alias cask=&quot;brew cask&quot;</code>，這樣只要打 <code>cask</code> 就好了。</p>
+<h2 id="更多-Casks"><a href="#更多-Casks" class="headerlink" title="更多 Casks"></a>更多 Casks</h2><p>除了軟體之外，還可以安裝字型及 QuickLook 外掛，像是在 QuickLook 看 josn、js、Markdown 等等的。<br>要裝 QuickLook 的外掛直接打指令就好 像是:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">brew cask install qlcolorcode qlstephen qlmarkdown</span><br></pre></td></tr></table></figure></p>
+<p><a href="https://github.com/sindresorhus/quick-look-plugins" target="_blank" rel="noopener">https://github.com/sindresorhus/quick-look-plugins</a> 這收錄 QuickLook 有那些外掛。</p>
+<p>字體的話還需要先執行 <code>brew tap caskroom/fonts</code> 下載字體的安裝列表，之後就跟安裝軟體一樣 <code>brew cask install font-source-code-pro</code> 安裝你要的字體名就可以了。</p>
+<h2 id="整合-Alfred"><a href="#整合-Alfred" class="headerlink" title="整合 Alfred"></a>整合 Alfred</h2><p>由於 cask 預設會裝在系統的 /opt/… 目錄下，為了讓 Alfred 可以搜尋到已裝的軟體，你必需把軟體安裝的目錄加入 Alfred 的 Search Scope , 可輸入 <code>brew cask alfred link</code> 就幫你加好了!! 真大心啊~</p>
+<p>然後還要再推的就是 <a href="https://github.com/pstadler/alfred-cask" target="_blank" rel="noopener">Cask for Alfred</a> , 讓你直接在 Alfred 裡就可以安裝，很方便，只是有點可惜，它似乎不會抓我自訂設定的安裝目錄 <code>--appdir</code> 等等的環境參數。<br><img src="https://raw.githubusercontent.com/pstadler/alfred-cask/master/screenshot.png" class="nofancybox" width="500"><br>最後分享一下<a href="https://gist.github.com/visioncan/7a1762196f80298fc377" target="_blank" rel="noopener">我裝的 List</a></p>
+]]></content>
+      
+        <categories>
+            
+            <category> Mac </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> osx </tag>
+            
+            <tag> brew </tag>
+            
+            <tag> cask </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[港版 MacBookPro Retina 新體驗]]></title>
+      <url>http://blog.visioncan.com/2014/unboxing-macbookpro-retina/</url>
+      <content type="html"><![CDATA[<p>話說我也趕上潮流敗了 MacbookPro 15 Retina!，在這之前我是 2009 年未的 MacbookPro 13”，說真的 <a href="http://blog.visioncan.com/2013/upgrade-macbook-pro-fusion-drive/">換了 ssd 加 Fusion Drive</a> 後其實速度上也算蠻快的，只是現在年紀稍長，電池只能撐 2~3 個小時，不像年輕時可近 4~5 個小時，嚴格來說，是可以繼續用下去，但我實在想幫我老婆換掉我很受不了的 win7，除了偶爾要幫忙修一下之外，有時還要為了要找一個功能開關，找到昏天暗地、找到了又鬼打牆…..(恕刪) 當然最正當的理由就是我也想開發支援 Retina 的 web 或 app。</p>
+<a id="more"></a>
+<p>在經過老婆的允許下，決定了 4 月去香港玩，順便線上訂了一台 MacbookPro (疑!是說相反了嗎?)，我就來分享一下訂購記錄。</p>
+<p>這次香港行，我訂的酒店是<a href="www.hotelmadera.com.hk/">木的地酒店</a>，真的算是個很棒的設計旅店，推薦! 出發前就有先跟酒店詢問是否可代收包裹，確定可以後，就在出發前一週線上訂了 MacbookPro 15 Retina 與 Apple 與 Airport Time Capsule，因為我 MacbookPro 是訂製款，升為16G RAM，需要三至四天，而 Time Capsule 不用等，所以我人還沒到香港，Time Capsule 就到酒店了，然後等我在木的地住2晚都要 check out 了 MacbookPro 才到，還好我們是4天3夜，另一晚住我另一間酒店，剛好在 check out 當天早上到貨，check out 時順便簽收，還暫寄行李出去吃喝一番後才回去拿，建議想要訂製的人最好先預抓時間，早點訂早點到，不然就像我，前3天都在滑手機 check 貨到哪邊了。</p>
+<p>時間點給大家參考一下<br>送貨商是 ups:<br>3/28 週五訂購<br>4/2 由上海發貨<br>4/4 早上到貨</p>
+<p>目前網路上的開箱很多，我就簡單開箱了!<br><img src="https://farm6.staticflickr.com/5574/14058871677_17b4488b07_z.jpg" width="640" alt="MacBookPro 15&quot; Retina"></p>
+<p>剛拿到時真的覺得好薄，跟我舊款相比，視覺或手感都薄了不少<br><img src="https://farm3.staticflickr.com/2928/14058805728_546d59f2a3_z.jpg" width="640" alt="MacBookPro 15&quot; Retina"></p>
+<p>由於是港版的，所以延長線是港版英規插頭，還多附一個可以插在豆腐上的英規插頭，當然重點是有美規插頭的豆腐，在台灣使用沒問題的啦!<br><img src="https://farm3.staticflickr.com/2925/14245452335_b9d02bb1c3_z.jpg" width="640" alt="MacBookPro 15&quot; Retina"></p>
+<p>新版的 MacbookPro 15 Retina 設計真的”減”掉很多，像是原有的呼吸燈、電池容量指示燈沒了，連 power 按鍵也改用鍵盤的方式，非 aluminum 樣式的按鈕，老實說原本這幾個設計我都覺得超好看的，超有設計感的，被減掉很可惜，但覺得減掉這些絕對可以省下不少成本，省下的這些都是跟 aluminum cnc 成型有關，而且工要很細的。<br><img src="https://farm3.staticflickr.com/2934/14222306106_f971afbc3a_z.jpg" width="640" alt="MacBookPro 15&quot; Retina"></p>
+<p>我會買港版的重要原因，一來當然是價格有相當大的優勢，其次就是覺得美版鍵盤非常的簡潔好看啊! 而我用嘸蝦米，正好不需要注音，當某些字真的不會打時，再盲打就好! 大不了再開螢幕鍵盤 XD!<br>有人會問我說為啥不日本買，更便宜(在未漲稅之前)，是較便宜，但那個日規鍵盤，實在受不了，這可會嚴重影響工作效率!<br><img src="https://farm3.staticflickr.com/2915/14058871557_e9f6fd93d4_z.jpg" width="640" alt="MacBookPro 15&quot; Retina"></p>
+<h2 id="來說說使用後的感覺吧"><a href="#來說說使用後的感覺吧" class="headerlink" title="來說說使用後的感覺吧"></a>來說說使用後的感覺吧</h2><p>跟大家一樣~ 回不去了，我以前是會使用 27” 外接螢幕來工作的，但在看慣了 Retina 之後，真的還是會比較想讓眼球停留在 Retina，現在就變成了 MacbookPro 15” Retina 為主，而外接螢幕為輔，跟過去使用習慣相反。</p>
+<h3 id="速度"><a href="#速度" class="headerlink" title="速度"></a>速度</h3><p>而在速度方面，也是還蠻快的，但可能之前也是使用 SSD，就沒有從傳統硬碟轉換到 SSD 那樣大副度的感受，只是有覺得開 parallels 虛擬 Win XP/7 時快蠻多，在使用 ps、iMovie 等較肥的軟體開起來也比較快，對了，在使用 Grunt 編譯的 scss 時比較起來也還蠻快的，以前有個要編 12 秒的 case，現在大約只需 5 秒。</p>
+<h3 id="溫度"><a href="#溫度" class="headerlink" title="溫度"></a>溫度</h3><p>過去使用的 MacbookPro 13” 熱都熱在左邊區域，尤其在充電時，換到 MacbookPro 15” Retina 後，平常使用沒有太大感受到溫度，充電時也會變熱，但都不及過去的 MacbookPro 13” 來的高溫。但在跑 WebGL 時，看 cpu 沒有高很多，但溫度卻很高，跑一段時間後還會啟用風扇飛航模式 @@，熱會集中在中間偏上的區域，應該是 cpu 在那吧。</p>
+<h3 id="續航力"><a href="#續航力" class="headerlink" title="續航力"></a>續航力</h3><p>電池的續航力，果然有夠強悍，我平常開 Chrome、Sublime text、Skype、line 等等，較肥的軟體偶爾使用，每次充電完使用都超過 8 小時，與官方列的 8 小時沒有差距很大!</p>
+<h3 id="音訊"><a href="#音訊" class="headerlink" title="音訊"></a>音訊</h3><p>內建揚聲器說真的有讓我驚豔到，雖然說也比不上有音箱的喇叭，但以這樣的體積，能有這樣的音效真的還蠻厲害的! 音質絕對有比一般 3C 賣場的無重低音的基本款喇叭好~</p>
+<p><strong>提外話!</strong> <br><br>購買前我沒有想到 Airport Time Capsule 也是使用港版英規插頭，導致回台用時，只能用接轉插頭，有點不便!。</p>
+<p>下次來介紹我必裝及方便安裝軟體工具吧。</p>
+]]></content>
+      
+        <categories>
+            
+            <category> Mac </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> unboxing </tag>
+            
+            <tag> mac </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Migrate to Hexo blog 順便作個小模組]]></title>
+      <url>http://blog.visioncan.com/2014/migrate-to-hexo/</url>
+      <content type="html"><![CDATA[<p><br><br><img src="https://raw.githubusercontent.com/hexojs/logo/master/hexo-logo.png" class="nofancybox" width="400"></p>
+<p>我換到 <a href="http://hexo.io/" target="_blank" rel="noopener">Hexo</a> 了，之前是使用 <a href="http://octopress.org/" target="_blank" rel="noopener">Octopress</a>，當初會使用 Octopress 最大吸引我的就是使用 markdown 來寫 blog 文章，覺得比較快速方便，其次是可以丟到 github page 上還可以自訂網址! 這麼讚!馬上就跳過去了. </p>
+<p>使用一段時間之後發現它產生文章真的有點慢…我文章就已經在不多了還很慢，而其中比較困擾我的是我修改了文章內容，本機預覽卻不會馬上出現，而是要重整個幾次才出現，當然後來也知道了<a href="http://stackoverflow.com/questions/13217394/how-to-speed-up-jekyll-octopress-generation" target="_blank" rel="noopener">解法</a>.</p>
+<p>之後是在發佈到 github page 時卻產生了一種不確定感，因為 deploy 失敗，要 fast-forward，後來有網路紅人作了 <a href="logdown.com">Logdown</a>，使用 markdown 編輯器，也可自訂網址，超強! 還有很多 feature，使用上也是非常方便啊!!!</p>
+<p>但我個人還是比較喜歡自已自訂些東西，所以後來發現 <a href="http://hexo.io/" target="_blank" rel="noopener">Hexo</a> 使用 node.js 作的 blog framework，真不愧是目前火紅的 JS 從前端走到後端啊! 功能我覺得跟 Octopress 挺相似的，但最大優勢就是速度快啊~<br>而且覺得 Octopress 的安裝還是有一定的門檻在，相較 Hexo 簡單得多些…</p>
+<p>以上碎念，來看怎麼裝 Hexo 吧!</p>
+<h3 id="先安裝-node-js"><a href="#先安裝-node-js" class="headerlink" title="先安裝 node.js"></a>先安裝 <a href="http://nodejs.org/download/" target="_blank" rel="noopener">node.js</a></h3><p>Node.js 可以說是個使用 Javascript 語言的伺服器後端，選作業系統安裝，此安裝會幫系統裝 node 及 npm (Node Packaged Modules node 的套件管理工具)。</p>
+<a id="more"></a>
+<h3 id="接下來就可以裝-Hexo-了"><a href="#接下來就可以裝-Hexo-了" class="headerlink" title="接下來就可以裝 Hexo 了"></a>接下來就可以裝 <a href="http://hexo.io/" target="_blank" rel="noopener">Hexo</a> 了</h3><p>在終端機輸入 <code>npm install hexo -g</code> 會把 hexo 下載並安裝</p>
+<p>接著進到你想安裝 blog 的路徑，再輸入 <code>hexo init blog &amp;&amp; cd blog</code> hexo 會把需要用到的檔丟到 blog 這個資料夾。<br>之後再執行 <code>hexo server</code> 就可在網址打 <code>http://0.0.0.0:4000</code> 預覽! 你可以編輯 <code>_config.yml</code> 來設定更多 blog 選項。<br><a href="http://hexo.io/docs/configuration.html" target="_blank" rel="noopener">這有詳細的設定說明</a></p>
+<p>執行 <code>hexo generate</code> 會在 public 資料夾下產生靜態檔，只要執行 <code>hexo deploy</code> 這些靜態檔就可以部屬到自已的網頁空間、 github 或 heroku 等等…  Hexo 還有蠻多 <a href="https://github.com/tommy351/hexo/wiki/Plugins" target="_blank" rel="noopener">plugins</a> 看你有什麼需求再安裝吧!</p>
+<p>而文章的 markdown 原始檔及圖片都會放在 source 資料夾下，當你執行 <code>hexo new &quot;New Post&quot;</code> 建立新文章時，也會放在這資料夾下，以上是簡單的介紹，詳細可以看<a href="http://hexo.io/docs/" target="_blank" rel="noopener">官網說明</a> 說明得蠻清楚的!</p>
+<h3 id="Hexo-Flickr-tag-模組開發"><a href="#Hexo-Flickr-tag-模組開發" class="headerlink" title="Hexo Flickr tag 模組開發"></a>Hexo Flickr tag 模組開發</h3><p>在得知 hexo 後，立馬就在我本機先裝了起來，從 octopress 轉移到 hexo 應該還蠻<strong>無痛</strong>的，但我不是，為什麼這麼說呢? 因為如果用了某個 tag 模組就 gg 了!</p>
+<p>因為我的 md 文章裡有用到 `{% flickr %}` 來直接取得 flickr 的照片，由於 hexo 沒有這個 tag 模組，在 generate 時了噴好多錯誤，而我文章裡又用了不少，我又不想一個一個改成 `{% img %}`，大致看了一下文件，決定來自已<del>造輪子</del>開發了。</p>
+<p>一開始使用 plugin 的 tag 方法結果發現是直接轉換 html，沒法等待取得 flick api 資料，問了作者 @tommy351 才得知可用 Filter 方法，可以等處理完資料在 callback，結果對 node 很嫩的我搞了好久，才弄出來，後來測試發現只能用在一個文章，多篇就一樣會有還沒取完資料就跑 server 了，等於 flickr 標籤還沒被替換就生成 html 了，一度還想要放棄，還試過 async 還是有問題，後來發現 Filter 可設定 pre 或 post，在經過幾次空白標籤的洗禮後，總於使用 pre 解決了，之前一直使用 post … </p>
+<p>而使用 hexo-tag-flickr 的最大好處呢就是，想貼上 flickr 照片時，只要把 flickr 網址中那串數字 copy 下來，貼到 markdown 文章裡的 flickr tag，就可以自動幫你產出照片了，不用還要去按分享取得這張照片的實際 url，當然應該只有像我把 blog 的圖丟到 flickr 的人比較有這樣的需求… 呵!</p>
+<img src="https://farm3.staticflickr.com/2939/14195708244_a52b6b4505.jpg" width="500" class="nofancybox" alt="hexo-tag-plugin-flickr">
+<p>如果有在使用 flickr 的人可以安裝一下 <code>npm install hexo-tag-flickr --save</code>，雖然有 bug 我可能<del>不見得會修</del>會修得比較慢，請鞭小力點 &lt;(<em>_</em> <em>_</em>)&gt;。</p>
+]]></content>
+      
+        <categories>
+            
+            <category> Blog </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> blog </tag>
+            
+            <tag> hexo </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Xcode and sublimetext themes fonts]]></title>
+      <url>http://blog.visioncan.com/2013/xcode-sublime-themes-fonts/</url>
+      <content type="html"><![CDATA[<p>來分享一下我目前主要編輯器的 theme 跟 font 吧!</p>
+<h2 id="theme"><a href="#theme" class="headerlink" title="theme:"></a>theme:</h2><p>我通常只有一個重點 就是黑灰底跟豐富色彩的 syntax color，沒辨法眼睛很挑剔!</p>
+<p><strong>Sublime text</strong>:<br>我是用推出蠻久也支援蠻多 editor 的 <a href="https://github.com/chriskempson/tomorrow-theme" target="_blank" rel="noopener">Tomorrow Theme</a> 系列，而有其它的配色也很火紅，但就看不慣~ 而其中我是用 Tomorrow Night - Eighties，底色沒選那麼深的原因是因為 mbp 的鏡面螢幕啊! 太深會反射 @@</p>
+<img src="https://github.com/ChrisKempson/Tomorrow-Theme/raw/master/Images/Tomorrow-Night-Eighties.png" class="lazy noborder" width="337" height="452" title="Tomorrow Night - Eighties"><br><em>引用 Tomorrow Theme on github 網站圖片</em><br><br>Tomorrow theme 不管是寫 html、css、js 上我都覺得非常舒適!後來連偶爾用的 vim, textmate, 都換成 tomorrow 系列~<br><br>可以到這裡下載 <a href="https://github.com/chriskempson/tomorrow-theme" target="_blank" rel="noopener">Tomorrow Theme</a><br><br><br><strong>Xcode</strong> :<br>最一開始用的是 <a href="http://developers.enormego.com/view/ego_xcode_theme_for_xcode_4_egov2" target="_blank" rel="noopener">EGO</a>, 中間有換成 Tomorrow 系列，但最後還是覺得 EGO 順眼多了。<br><br><img src="https://farm8.staticflickr.com/7396/9876727754_9043ae1f9d_b.jpg" width="1024" alt="Xcode-theme">
+<p>安裝路徑是在<code>~/Library/Developer/Xcode/UserData/FontAndColorThemes/</code></p>
+<p>EGO v2 在這裡下載:<br><code>curl -O http://developers.enormego.com/assets/egotheme/EGOv2.dvtcolortheme</code></p>
+<h2 id="Font"><a href="#Font" class="headerlink" title="Font:"></a>Font:</h2><p>好的字型對於閱讀與視覺也是很重要的!<br>原本使用 OS X 預設的 Monaco，但意外發現 <a href="http://www.slant.co/topics/67/~what-are-the-best-programming-fonts" target="_blank" rel="noopener">Slant</a> 列出最佳寫 code 的字型，後來就改用 Slant 上獲得最高分的 <a href="https://github.com/adobe/source-code-pro" target="_blank" rel="noopener">Source Code Pro</a>，果然還不錯! 目前我很多編輯器裡的 font 都改用 Source Code Pro 了!</p>
+<img src="http://i.imgur.com/0U3hv1r.png" class="lazy noborder" width="689" height="443" title="source code pro">
+<p><em>引用 Slant 網站圖片</em></p>
+<h2 id="Chrome"><a href="#Chrome" class="headerlink" title="Chrome"></a>Chrome</h2><p>Chrome 的 DevTools 也有 theme 喔 !!<br>對於經常要看 source code 的工程師們，應該不想看著白色背景 codeing 吧!<br><a href="http://devthemez.com/" target="_blank" rel="noopener">devthemez</a> 有列出很多 developer theme。</p>
+<p>目前我 Chrome 用的是 <a href="https://github.com/mauricecruz/chrome-devtools-zerodarkmatrix-theme" target="_blank" rel="noopener">Zero Dark Matrix</a>，作者還有經常性的維護，不會因為 Chrome 升級版本有些畫面就失效! (有的 theme 的確會造成這樣問題)，大推!</p>
+<img src="https://raw.github.com/mauricecruz/Chrome-devtools-zerodarkmatrix-theme/master/images/elements.png" class="lazy noborder" title="Zero 600 Dark Matrix">
+<p><em>引用 Zero Dark Matrix on github 圖片</em></p>
+]]></content>
+      
+        <categories>
+            
+            <category> Theme </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Objective-C </tag>
+            
+            <tag> Xcode </tag>
+            
+            <tag> sublimetext </tag>
+            
+            <tag> Chrome </tag>
+            
+            <tag> Theme </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Plex on Apple TV 3]]></title>
+      <url>http://blog.visioncan.com/2013/plex-on-apple-tv-3/</url>
+      <content type="html"><![CDATA[<img src="/images/2013/ATV_plus_Plex.jpg" class="lazy noborder" title="Plex on Apple TV 3">
+<p>在要買 AppleTV 3 時就一直期待著，那天可以像 ATV 2 代一樣裝著 Plex player 觀看我電腦裡的影片，只是這天等了好久，一直沒實現，反到是新家買了三星的 TV ，裡面的 <a href="http://www.samsung.com/us/appstore" target="_blank" rel="noopener">Samsung TV App store</a> 居然有 Plex 可以裝! 讓我看影片很爽快! (大概只有這套 app 想裝，其它的都非常g肋，應該沒人想用 remote 選字上 youtube 吧!)</p>
+<p> AppleTV 3 躺了好久，今天終於出頭天了! 有高手弄出了 <a href="https://github.com/iBaa/PlexConnect" target="_blank" rel="noopener">PlexConnect</a>，讓電腦當 server 透過 ATV3 改 dns 來連到電腦，看電腦上的影片，還免 jb 耶!! AWESOME!</p>
+<p>重點不用1分鐘就搞定!! 真是無痛!<br><br>(那像之前連大陸地區的方法，麻煩又 lag 看得到吃不到 #$%^&amp;* )</p>
+<a id="more"></a>
+<p>p.s. 我的電腦是 Mac OSX ，呃! 我不知 windows 是不是也可以1分鐘搞定啦~ </p>
+<hr>
+<p>###1. 如果電腦還沒有裝 <a href="http://www.plexapp.com/getplex/" target="_blank" rel="noopener">Plex Media Server</a> 的，要先裝一下!</p>
+<p>###2. 在終端機 clone <a href="https://github.com/iBaa/PlexConnect" target="_blank" rel="noopener">PlexConnect</a> 的 repo. , 或是直接<a href="https://github.com/iBaa/PlexConnect/archive/XML_templates.zip" target="_blank" rel="noopener">下載 Zip 檔案</a>也行</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git <span class="built_in">clone</span> https://github.com/iBaa/PlexConnect</span><br><span class="line"><span class="built_in">cd</span> PlexConnect</span><br></pre></td></tr></table></figure>
+<p>###3. 編輯 Settings.py 檔案</p>
+<figure class="highlight py"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">getIP_DNSmaster</span><span class="params">()</span>:</span>  <span class="comment"># Router, ISP's DNS, ...</span></span><br><span class="line">    <span class="keyword">return</span> <span class="string">'8.8.8.8'</span>  <span class="comment"># 這改成 return '192.168.0.111' 是你電腦的區網 ip，此例是 192.168.0.111</span></span><br></pre></td></tr></table></figure>
+<p>! PlexConnect 的條件是需要 ATV 與電腦要在同一個網域下.</p>
+<p>###4. 差不多了!<br>在電腦先開啟 Plex Media Server<br>接著在終端機下執行<code>sudo ./PlexConnect.py</code> 輸入密碼後，電腦端就搞定了，應該可以看到類似以下訊息<br><img src="/images/2013/terminal_plex_connect.png" class="lazy noborder" title="plex connect on terminal"><br>可以看到 Plex Connect 會連到 Plex Media Server，而且會佔用 80 port ， 因為我有開 apache 在 80 port , 所以要先關一下。</p>
+<p>###5. ATV 上修改 DNS 設定<br><a href="https://github.com/iBaa/PlexConnect/wiki/Install-guides" target="_blank" rel="noopener">Plex Connect 的 Wiki</a> 上有圖片教學如何設定 DNS </p>
+<p>也就是在 設定 &gt; 一般 &gt; 選你連接網路 &gt; 進入 DNS 修改成上面輸入的電腦區網 ip<br><img src="https://farm6.staticflickr.com/5449/8973476439_c0cacc691b_b.jpg" width="1024" alt="P1130443"></p>
+<p>接著進入 ATV 的預告片裡應該就會看到了!<br><img src="https://farm9.staticflickr.com/8549/8974668960_cf462c4643_b.jpg" width="1024" alt="P1130435"></p>
+<img src="https://farm6.staticflickr.com/5330/8974668952_a1515f5aa0_b.jpg" width="1024" alt="P1130437">
+<img src="https://farm4.staticflickr.com/3705/8974668982_f72fff2cf1_b.jpg" width="1024" alt="P1130439">
+<p>只要在 Plex Media Server 設定好，中文字幕也沒問題! 但目前發現有部份1~2個中文字會有亂碼，其它都非常棒!</p>
+<p>真的! 不用 1 分鐘就搞定了呢!!</p>
+<h3 id="設定"><a href="#設定" class="headerlink" title="設定"></a>設定</h3><p>我自已字幕的設定是編碼要 UTF-8 比較不會有問題, 並在檔名在上加.zh <code>movie_name.zh.str</code> 這樣在字幕選擇時才會出現中文，不然會出現 unknown</p>
+<p>分享我三星電視上的 Plex 其實可以設定的比較多，字幕大小等等，但重點是 ATV 不在無用武之地了!!!</p>
+<img src="https://farm6.staticflickr.com/5327/8973527111_646c5aef33_b.jpg" width="1024" alt="P1130446">
+<img src="https://farm4.staticflickr.com/3817/8973527057_ba7cc02804_b.jpg" width="1024" alt="P1130447">
+<p>Enjoy!!</p>
+]]></content>
+      
+        <categories>
+            
+            <category> Plex </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> AppleTV3 </tag>
+            
+            <tag> Plex </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[CocoaPods 管理 Objective-C 專案]]></title>
+      <url>http://blog.visioncan.com/2013/cocoapods-manager/</url>
+      <content type="html"><![CDATA[<p>伴著 App 大賣，至今已進入 <a href="http://www.apple.com/tw/itunes/50-billion-app-countdown/" target="_blank" rel="noopener">500億大關</a>， Objective-C 開發也越來火紅，相關的 library 也越來越多!<br><br><br>話說當我們要造一台車，有些東西真不用自已在重新開發輪子，我覺得像 Ruby 一樣! gem 非常多~</p>
+<p>好一段時間沒研究了! 剛好最近需要開發 iOS，在找工具時發現了 <a href="http://cocoapods.org" target="_blank" rel="noopener">CocoaPods</a> 真是個管理輪子及相依性的好工具!</p>
+<p>一方面也知道用了那些輪子，有些輪子是擴充某個版本輪子的 category，沒注意一更新可能會造成相依性問題出錯，此外也可在官網搜尋有那些好用的輪子，網海中輪子爆多，有這方便了不少!</p>
+<a id="more"></a>
+<p>###Install<br>CocoaPods 採用 ruby gem 發怖，在 terminal 輸入安裝</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">gem install cocoapods</span><br><span class="line">pod setup</span><br></pre></td></tr></table></figure>
+<ul>
+<li>這動作會把 <a href="https://github.com/CocoaPods/Specs" target="_blank" rel="noopener">CocoaPods/Specs</a> repo 拉進 <code>~/.cocoapods</code> (Library 列表)</li>
+</ul>
+<h3 id="USE"><a href="#USE" class="headerlink" title="USE"></a>USE</h3><p>接著在專案中新增一個檔案 <code>Podfile</code> 內容如下</p>
+<figure class="highlight sh"><figcaption><span>Podfile</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">platform :ios, <span class="string">'6.0'</span></span><br><span class="line">pod <span class="string">'AFNetworking'</span></span><br><span class="line">pod <span class="string">'Reachability'</span>,  <span class="string">'~&gt; 3.0.0'</span></span><br></pre></td></tr></table></figure>
+<p>並執行</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pod install</span><br></pre></td></tr></table></figure>
+<p>會產生一個 <code>Pods</code> 的資料夾、<code>Podfile.lock</code> 還有 <code>{project name}.xcworkspace</code> 檔</p>
+<p>它會在專案中加入 <code>libPods.a</code> 靜態 library，並把專案跟相依的 library 加到 <code>{project name}.xcworkspace</code><br>之後每次都必需要開啟 <code>{project name}.xcworkspace</code> 這個檔來編輯、編譯你的專案</p>
+<p>現在可以在專案加入 <code>#import &lt;Reachability.h&gt;</code> 開始 work 了</p>
+<h3 id="更新"><a href="#更新" class="headerlink" title="更新"></a>更新</h3><p><code>pod install</code> 會安裝在 <code>Podfile.lock</code> 裡所指定的版本，沒指定會裝 <code>Podfile</code> 裡的</p>
+<p><code>pod update</code> 只管更新 <code>Podfile</code> 裡的版本</p>
+<h3 id="Podfile"><a href="#Podfile" class="headerlink" title="Podfile"></a>Podfile</h3><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">pod <span class="string">'AFNetworking'</span>, <span class="string">'0.5.1'</span>   <span class="comment">#指定版本</span></span><br><span class="line">pod <span class="string">'AFNetworking'</span>, <span class="string">'&gt;= 0.5.1'</span>  <span class="comment">#大於或等於某一版</span></span><br><span class="line">pod <span class="string">'AFNetworking'</span>, <span class="string">'~&gt; 1.0.3'</span>  <span class="comment">#會安裝 &gt;= 1.0.3 到 1.0.x，也就是 &lt; 1.1以下的</span></span><br><span class="line">pod <span class="string">'Objection'</span>, :head   <span class="comment">#'bleeding edge' 最新版? 應該是連 beta 版也裝吧!</span></span><br><span class="line">pod <span class="string">'AFNetworking'</span>, :<span class="built_in">local</span> =&gt; <span class="string">'~/Desktop/AFNetworking'</span>  <span class="comment">#本地端</span></span><br><span class="line">pod <span class="string">'AFNetworking'</span>, :git =&gt; <span class="string">'https://github.com/AFNetworking/AFNetworking'</span>  <span class="comment">#也可以設定遠端</span></span><br></pre></td></tr></table></figure>
+<p><a href="https://github.com/CocoaPods/CocoaPods/wiki/A-Podfile" target="_blank" rel="noopener">參考官方wiki</a></p>
+<h3 id="圖形介面方案Alcatraz"><a href="#圖形介面方案Alcatraz" class="headerlink" title="圖形介面方案Alcatraz"></a>圖形介面方案Alcatraz</h3><p>另外還有一套圖形介面方案 <a href="http://mneorr.github.io/Alcatraz/" target="_blank" rel="noopener">Alcatraz</a><br>但目前我覺得輪子比 CocoaPods 少，但比較方便的是有另外把 theme 及 templates 作歸類。</p>
+<img src="http://mneorr.github.io/Alcatraz/images/plugin.png" class="lazy noborder">
+<p>在 <code>~/Library/Application\ Support/Developer/Shared/Xcode/Plug-ins</code> 資料夾裡執行安裝: </p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">curl -L http://goo.gl/xfmmt | tar xv -C ~/Library/Application\ Support/Developer/Shared/Xcode/Plug-ins -</span><br></pre></td></tr></table></figure>
+<p>重開 Xcode , Window 選單下會有 Package Manager，但我目前還沒努力用他就是了 XD</p>
+]]></content>
+      
+        <categories>
+            
+            <category> Objective-C </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> CocoaPods </tag>
+            
+            <tag> Objective-C </tag>
+            
+            <tag> Xcode </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Alfred Workflows]]></title>
+      <url>http://blog.visioncan.com/2013/alfred-workflows/</url>
+      <content type="html"><![CDATA[<p>寫了一個可以方便查詢目前台幣即時兌換的匯率，因為每次都要開台灣銀行來看，所以就乾脆寫了一個快速查詢，原理是直接取得台灣銀行的查匯率頁面，再把 csv 資料抓來整理列出。</p>
+<img src="/images/2013/alfred_ext_ntd_exchange1.png" class="lazy noborder" title="Alfred Extensions NTD Exchange Rate">
+<p>可額外在輸入幣別後查歷史匯率，點了之後會跳到台灣銀行的單一幣別歷史匯率查詢頁，當然這頁還是得由自已按下送出才能查詢!</p>
+<p>那個上下箭頭呢 是跟前一日來作比對的，非週期來比對，僅供參考<br><img src="/images/2013/alfred_ext_ntd_exchange2.png" class="lazy noborder" title="Alfred Extensions NTD Exchange Rate"></p>
+<p>####下載 v1.1.1</p>
+<img src="/images/2013/alfred_workflow_icon.png" class="noborder" title="Download Alfred Extensions NTD Exchange Rate">
+<p><a href="https://goo.gl/vRZ4V" target="_blank" rel="noopener">下載</a></p>
+<h4 id="Changelog"><a href="#Changelog" class="headerlink" title="Changelog"></a>Changelog</h4><ul>
+<li>v 1.1.1 fixed download link miss</li>
+<li>v 1.1 修正讀取銀行資料錯誤</li>
+</ul>
+<p><small></small></p>
+<p>註：</p>
+<ul>
+<li>本工具只列台灣銀行的資料。</li>
+<li>歷史匯率會列出往前推算9天的只有”營業日”的匯率，也就是實際列出會去掉週六日。</li>
+<li>所有匯率以台灣銀行實際交易價格為主，本工具只抓其網頁作為參考。</li>
+</ul>
+<p>thanks:</p>
+<ul>
+<li>Flag icons made by www.IconDrawer.com</li>
+<li>workflows Library by David Ferguson (@jdfwarrior)</li>
+</ul>
+<p></p>
+]]></content>
+      
+        <categories>
+            
+            <category> Alfred </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Alfred v2 新的擴充功能及主題]]></title>
+      <url>http://blog.visioncan.com/2013/alfred-new-workflow-theme-download/</url>
+      <content type="html"><![CDATA[<p>這次 v2 改版，最大的差異就在把原本在 v1 分開的 Shell Script , workflow, AppleScript … 整合成 workflows，來實作一下</p>
+<p>來作一個簡單的取得 wifi 的 ip 的 workflow 吧!</p>
+<p>####1.先在 workflows 標籤中下方按”+”</p>
+<img src="/images/2013/alfred_workflow_1.png" class="lazy noborder" title="Alfred_workflows1">
+<a id="more"></a>
+<p>####2.出現如下3個流程，最左是設定要 keyboard search 的 “關鍵字”，中間是”指令動作”，最右是”結果通知”</p>
+<img src="/images/2013/alfred_workflow_2.png" class="lazy noborder" title="Alfred_workflows2">
+<p>####3.先設定 “關鍵字”，選 No Argument 是不帶入參數，可拉入 128 x 128 的 icon<br><img src="/images/2013/alfred_workflow_3.png" class="lazy noborder" title="Alfred_workflows3"></p>
+<p>####4.”指令動作”輸入，v2 版除了支援 bash 之外還支援 zsh, php, ruby, python, prel, osascript !<br><img src="/images/2013/alfred_workflow_4.png" class="lazy noborder" title="Alfred_workflows4"></p>
+<p>####5.”結果通知”可選 OSX 內建的 Notification Center 或 Growl </p>
+<img src="/images/2013/alfred_workflow_5.png" class="lazy noborder" title="Alfred_workflows5">
+<p>####6.最後完成結果!</p>
+<img src="/images/2013/alfred_workflow_6.png" class="lazy noborder" title="Alfred_workflows6">
+<p>只要打上 ip 便會在通知中出現。<br><img src="/images/2013/alfred_workflow_7.png" class="lazy noborder" title="Alfred_workflows7"><br><br><br><img src="/images/2013/alfred_0008.png" class="lazy noborder" title="Alfred_workflow"></p>
+<p>藉由只打上2個字，就可以作完整個工作，實現快速化! 甚至比較復雜的指令、snippets、Bookmrk 等…工作都可以交給 Alfred 了~</p>
+<p><a href="/images/2013/Wi-Fi_ip.alfredworkflow">上面範例的檔案下載</a></p>
+<hr>
+<p>###也分享一下其它的 workflows：<br><strong>修復磁碟權限</strong> <br><br>輸入「rep」<br>在 command 中修復磁碟權限<br><img src="/images/2013/alfred_workflow_repair.png" class="lazy noborder" title="alfred_workflow_repair"><br><a href="/images/2013/Repair_Permissions.alfredworkflow">下載</a></p>
+<p>還有更多上<a href="http://www.alfredforum.com/forum/3-share-your-workflows/" target="_brank">官方論壇</a>尋寶吧</p>
+<hr>
+<h3 id="還作了一個-Facebook-Look-Theme"><a href="#還作了一個-Facebook-Look-Theme" class="headerlink" title="還作了一個 Facebook Look Theme"></a>還作了一個 Facebook Look Theme</h3><img src="/images/2013/Alfred_facebook_look.png" class="lazy noborder" title="Alfred_facebook_look">
+<p><a href="/images/2013/FacebookLook.alfredappearance">theme 下載</a></p>
+]]></content>
+      
+        <categories>
+            
+            <category> Alfred </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Alfred </tag>
+            
+            <tag> App </tag>
+            
+            <tag> workflow </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Mac 上的聰明管家阿福 Alfred，升級v.2了]]></title>
+      <url>http://blog.visioncan.com/2013/alfred_make_better/</url>
+      <content type="html"><![CDATA[<img src="/images/2013/Alfred_appicon.png" class="noborder" title="Alfred">
+<p>記得之前在 App store 上發現一個紫色的帽子，長居免費排行榜許久，那時還在1.0的版本，好奇驅使之下，載來玩玩，才發現真是超棒、幫助工作效率的軟體!! 讓我迅速地放棄掉了內建的 Spotlight!</p>
+<a id="more"></a>
+<p><a href="http://alfredapp.com" target="_blank" rel="noopener">Alfred</a> 是 Mac 的管家阿福，讓我想到黑暗騎士的管家阿福 一樣好用!?， Alfred 是一個在工作列的軟體，啟用後是一個輸入框打上你要搜尋的字，可以快速啟用你搜尋的指令動作，在 App Store 上的免費版本只能做基本的軟體、網頁搜尋等。</p>
+<img src="/images/2013/alfred_0002.png" class="noborder" title="Alfred">
+<p>對一般使用來說也許很夠用了，但購買了 powerpack (動力包!?) 後，可以把他由士兵變成美國隊長!!!(笑)<br>支援自訂主題、執行指令、還有很多加速生產力的功能!</p>
+<p>因為只要輸入1~2個字，Alfred 就會列出軟體或指令列表，所以我的 Dock 變得如此清爽乾淨，開啟軟體都用有勞 Alfred 了。<br><br><br><img src="/images/2013/alfred_0013.png" class="noborder" title="Alfred"></p>
+<p>Alfred 可以開發擴充套件，也可以用別人分享的擴充套件，支援加入結合 Shell語法、Applescript、workflow，簡化工作!</p>
+<p>像是我要取得內外部 ip 位址，便會出現在系統通知<br><img src="/images/2013/alfred_0006.png" class="noborder" title="Alfred"><br><img src="/images/2013/alfred_0008.png" class="noborder" title="Alfred"></p>
+<p>不要再每次都要開磁碟工具來修復權限了!<br><img src="/images/2013/alfred_0004.png" class="noborder" title="Alfred"></p>
+<p>Alfred 已經深深植入我的手掌了~ </p>
+<p>最新 v2.0 正式版快釋出了，也馬上來用看看，而v1居然不能免費升級!!! 要免費升的要買 Mega 的 license 才可以，早知當初就買 Mega，現在要再花一次錢升級 …奧  但這次改進流程式的工作指令，變的更強大! 主題自訂自由度更高，這次心狠買了 Mega 了。</p>
+<p>但因為工作流程的大改版，導至 v1 的擴充套件現在還沒辨法直接匯入到 v2，但官方有在 [blog 升級說明] (<a href="http://blog.alfredapp.com/2013/03/16/alfred-v2-importing-settings-from-alfred-v1/" target="_blank" rel="noopener">http://blog.alfredapp.com/2013/03/16/alfred-v2-importing-settings-from-alfred-v1/</a>)  將在 v2.1 版本加入這個功能 (應該是付費的 App 更新挺快的)，期待快點啊!<br>不然 v2 一直沒辨法大力用，因為我大部份的擴充功能都在還是在 v1 上 ，還沒辨法換過去啊~~~~<br><img src="/images/2013/alfred_0012.png" class="noborder" title="Alfred"><br><img src="/images/2013/alfred_0010.png" class="noborder" title="Alfred"></p>
+<p>v2.01 有出現了 import v1 按鈕，但… 只有些偏好設定轉移而已</p>
+]]></content>
+      
+        <categories>
+            
+            <category> Alfred </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> OSX </tag>
+            
+            <tag> Alfred </tag>
+            
+            <tag> App </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[升級 MacBook Pro 使用 Fusion Drive]]></title>
+      <url>http://blog.visioncan.com/2013/upgrade-macbook-pro-fusion-drive/</url>
+      <content type="html"><![CDATA[<p>前陣子我的 MBP 要過保固了，想不到也3年了~ 還好還很健康!<br>即然過保了，就來拆機換 SSD 吧，即然要換 SSD 了，那就一定要用 Apple 新技術 Fusion Drive 啊~~</p>
+<blockquote>
+<p>Fusion Drive 簡單來說就是使用 SSD 搭配一般 HDD，在 Mac 裡只會顯示一顆硬碟，但背地裡偷偷的幫你分配檔案，常用要快速開啟的檔案放 SSD，不常用放 HDD，補足了SSD空間不夠大、HDD 速度不快的缺點。</p>
+</blockquote>
+<p>來動手記一下過程吧</p>
+<img src="https://farm9.staticflickr.com/8086/8411031566_65e3e5df95.jpg" width="500" alt="P1100460">
+<a id="more"></a>
+<p>###1.準備 SSD + 轉接盒<br>轉接盒 拍賣上有幾個光碟轉硬碟方案(ruten搜「轉接盒托架」)，我選擇如下：<br>有一個光碟機轉硬碟的盒子 + usb 的光碟外接盒 讓拆下來的光碟機有個家，這方案真是讚!!哈 (賣家還送了拆機的工具呢!) 之前還想拆了光碟機怎麼辨呢….<br>SSD 則是買 美光 M4，據說比較相容 Mac<br><br><img src="https://farm9.staticflickr.com/8354/8409935061_3238f894be.jpg" width="500" alt="P1100462"></p>
+<p>###2.拆機啦!<br>當然找 ifixit 啦，因為我是2009尾的機子，所以參考 <a href="http://www.ifixit.com/Guide/Installing+MacBook+Pro+13-Inch+Unibody+Mid+2009+Dual+Hard+Drive/8518/1" target="_blank" rel="noopener">http://www.ifixit.com/Guide/Installing+MacBook+Pro+13-Inch+Unibody+Mid+2009+Dual+Hard+Drive/8518/1</a></p>
+<img src="https://farm9.staticflickr.com/8497/8409935013_7ab248527e.jpg" width="500" alt="P1100463">
+<p>把原本HDD拆掉，換上美光 M4<br><img src="https://farm9.staticflickr.com/8372/8409934745_4c30456703.jpg" width="500" alt="P1100464"></p>
+<p>我覺得光碟機的線有點不好拆…<br><img src="https://farm9.staticflickr.com/8356/8409935003_8efef56952.jpg" width="500" alt="P1100465"></p>
+<p>其中 ifixit 沒拆到光碟機這個部位，記得要拆一下，給光碟機的硬碟盒用。<br><img src="https://farm9.staticflickr.com/8476/8411031442_7beeea32c8.jpg" width="500" alt="P1100467"></p>
+<p>把原本的 HDD 裝到這光碟轉接盒裡，再一步一步裝回去就行啦!!<br><img src="https://farm9.staticflickr.com/8223/8409934977_7ca24f7f87.jpg" width="500" alt="P1100466"></p>
+<p>分享一下我個人小撇步 將MBP的底版的螺絲拆下後，一一照拆下依位置順序排列粘在膠帶上，到時就依位置鎖上，也比較不會不見。<br><img src="https://farm9.staticflickr.com/8231/8411031402_23d3abfdec.jpg" width="500" alt="P1100469"></p>
+<p>接著打 Fusion Drive 指令，請參考<a href="http://appleuser.com/2012/11/30/fusiondrive/" target="_blank" rel="noopener">http://appleuser.com/2012/11/30/fusiondrive/</a></p>
+<img src="https://farm9.staticflickr.com/8362/8409934865_98935c3c7b.jpg" width="500" alt="P1100472">
+<p>安裝 OSX (沒有比較快的感覺耶)<br><img src="https://farm9.staticflickr.com/8334/8411031324_bc752d5cd0.jpg" width="500" alt="P1100473"></p>
+<p>裝的同時來裝外接光碟機吧!! 其實就把光碟機塞進外接盒裡~<br><img src="https://farm9.staticflickr.com/8087/8411031284_7dcb6f2f48.jpg" width="500" alt="P1100474"></p>
+<p>Boom! 電磁爐誕生! <br><br><img src="https://farm9.staticflickr.com/8466/8409934797_6165bff1e5.jpg" width="500" alt="P1100475"></p>
+<p>其實是原廠look的外接光碟機<br><img src="https://farm9.staticflickr.com/8512/8409934727_df20118a31.jpg" width="500" alt="P1100476"></p>
+<p>裝完一定要測速一下，因為我是舊機的關係，只支援 SATAII，這樣的速度算不錯了! (至少比以前快得多) <br><br><img src="/images/2013/DiskSpeedTest2.png" class="noborder"></p>
+<p>###3.更新Firmware , 開 TRIM<br><a href="http://www.crucial.com/support/firmware.aspx" target="_blank" rel="noopener">http://www.crucial.com/support/firmware.aspx</a> 下載 Mac 版，我試過用 USB 弄不進去，只好燒錄 iso 檔到光碟，再開機更新<br>我的出廠是 000F 升到 040H，官方有中文的說明文件下載，照作ok! </p>
+<p>開不開 trim 網路上好像眾說紛紜，但看大家還是開了，也就默默跟進了 <br><br>以下節錄自：<a href="http://digitaldj.net/2011/07/21/trim-enabler-for-lion/" target="_blank" rel="noopener">http://digitaldj.net/2011/07/21/trim-enabler-for-lion/</a></p>
+<p>1.備份檔案<br><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo cp /System/Library/Extensions/IOAHCIFamily.kext/Contents/PlugIns/IOAHCIBlockStorage.kext/Contents/MacOS/IOAHCIBlockStorage /System/Library/Extensions/IOAHCIFamily.kext/Contents/PlugIns/IOAHCIBlockStorage.kext/Contents/MacOS/IOAHCIBlockStorage.original</span><br></pre></td></tr></table></figure></p>
+<p>2.修改開啟 TRIM 支援 (注意作業系統)<br><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">FOR ML 10.8.1 AND LION 10.7.5 OR NEWER</span><br><span class="line"></span><br><span class="line">sudo perl -pi -e <span class="string">'s|(\x52\x6F\x74\x61\x74\x69\x6F\x6E\x61\x6C\x00&#123;1,20&#125;)[^\x00]&#123;9&#125;(\x00&#123;1,20&#125;\x4D)|$1\x00\x00\x00\x00\x00\x00\x00\x00\x00$2|sg'</span> /System/Library/Extensions/IOAHCIFamily.kext/Contents/PlugIns/IOAHCIBlockStorage.kext/Contents/MacOS/IOAHCIBlockStorage</span><br><span class="line"></span><br><span class="line">FOR ML 10.8.0 AND LION 10.7.4 BELOW</span><br><span class="line"></span><br><span class="line">sudo perl -pi -e <span class="string">'s|(\x52\x6F\x74\x61\x74\x69\x6F\x6E\x61\x6C\x00&#123;1,20&#125;)[^\x00]&#123;9&#125;(\x00&#123;1,20&#125;\x51)|$1\x00\x00\x00\x00\x00\x00\x00\x00\x00$2|sg'</span> /System/Libraryary/Extensions/IOAHCIFamily.kext/Contents/PlugIns/IOAHCIBlockStorage.kext/Contents/MacOS/IOAHCIBlockStorage</span><br></pre></td></tr></table></figure></p>
+<p>3.強制更新系統裡的快取<br><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo touch /System/Library/Extensions/</span><br></pre></td></tr></table></figure></p>
+<p>4.重開機再去系統資訊開是否有開啟了TRIM</p>
+<p>###4.播 DVD 找不到光碟機問題<br>播放 DVD 時，MBP 會開啟 DVD 播放程式，但預設是抓內建的，但被我們改成硬碟，所以找不到了!<br>可服用此帖解決 <a href="http://appleuroracle.blogspot.tw/2010/09/macosxdvddvd70012.html" target="_blank" rel="noopener">http://appleuroracle.blogspot.tw/2010/09/macosxdvddvd70012.html</a></p>
+<p>目前使用上都還蠻快的，可能東西還沒塞很多，而且我看東西都還是放在 SSD 裡<br>換SSD 跟保留光碟機還有 Fusion Drvie 真是老機回春的超讚方案!!</p>
+]]></content>
+      
+        <categories>
+            
+            <category> Mac </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Fusion Drive </tag>
+            
+            <tag> SSD </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[會動的照片-Afternoon]]></title>
+      <url>http://blog.visioncan.com/2012/cinema-graphs-windbell/</url>
+      <content type="html"><![CDATA[<p>在墾丁的民宿，很放鬆~<br><a id="more"></a><br><img src="/images/cinemagraphs/windbell.gif" title="會動的照片-休閒的下午"></p>
+]]></content>
+      
+        <categories>
+            
+            <category> Cinemagraphs </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> gif </tag>
+            
+            <tag> Cinemagraphs </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[octopress rake generate error]]></title>
+      <url>http://blog.visioncan.com/2012/octopress-rake-generate-error/</url>
+      <content type="html"><![CDATA[<p>不知為什麼 <code>rake preview</code> 沒問題，<code>rake generate</code> 就出錯了</p>
+<ul>
+<li>如果是 <figure class="highlight rb"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">… parse_doc.rb <span class="symbol">:</span><span class="number">22</span><span class="symbol">:in</span> ….</span><br><span class="line">… convertible.<span class="symbol">rb:</span><span class="number">30</span><span class="symbol">:in</span> <span class="string">`read_yaml': …</span></span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<p>的錯誤, 修改 <code>ruby版本位址\gems\jekyll-0.11.0\lib\jekyll\convertible.rb</code><br>將<br><figure class="highlight rb"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">self</span>.content = File.read(File.join(base, name))</span><br></pre></td></tr></table></figure></p>
+<p>修改為<br><figure class="highlight rb"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">self</span>.content = File.read(File.join(base, name), <span class="symbol">:encoding</span> =&gt; “utf-<span class="number">8</span>”)</span><br></pre></td></tr></table></figure></p>
+<ul>
+<li>如果是<figure class="highlight rb"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">… psych.<span class="symbol">rb:</span><span class="number">148</span><span class="symbol">:in</span> <span class="string">`parse': couldn't parse YAML at line 5 column 0 (Psych::SyntaxError)</span></span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<p>就代表要嘛 <code>_config.yml</code> 有錯，不然就是 <code>_post</code> 下的文章有錯，<br><code>:</code>冒號前一定要有空格，如下:<br><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">url:</span><span class="string">blog.visioncan.com</span>  <span class="comment">#沒有空格</span></span><br><span class="line"><span class="attr">layout:</span><span class="string">post</span> <span class="comment">#沒有空格</span></span><br><span class="line"><span class="attr">published:</span><span class="literal">true</span> <span class="comment">#沒有空格</span></span><br><span class="line">        </span><br><span class="line"><span class="attr">url:</span> <span class="string">blog.visioncan.com</span></span><br><span class="line"><span class="attr">layout:</span> <span class="string">post</span></span><br><span class="line"><span class="attr">published:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure></p>
+]]></content>
+      
+        <categories>
+            
+            <category> Blog </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Octopress </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[會動的照片-墾丁海]]></title>
+      <url>http://blog.visioncan.com/2012/cinema-graphs-kenting/</url>
+      <content type="html"><![CDATA[<p>攝影大師 <a href="http://fromme-toyou.tumblr.com/tagged/gif" target="_blank">Jamie Beck</a> 及平面設計大師 <a href="http://kevin.tumblr.com/tagged/gif" target="_blank">Kevin Burg</a> 創造出 <a href="http://cinemagraphs.com" target="_blank">Cinemagraphs</a>，我看了好震憾，我覺得Cinemagraphs的照片就像哈利波特裡的畫、報紙裡的圖，活生生的紀錄了當下，還動了起來，最感動的是這樣的照片彷彿時間靜止了下來，就停留在照片的那一刻，看著不知不覺時間已經流逝了，因為我已經被會的照片捲入了時光漩渦了!</p>
+<p>所以我也決定來把生活中的照片動起來，讓當時的時間也暫留了下來，這是去墾丁的夏都酒店的海灘，超美! 似乎聽到了海聲了!</p>
+<a id="more"></a>
+<img src="/images/cinemagraphs/Ani_Ocean_600.gif" title="會動的照片-墾丁">
+<p>此外 iOS 上知名好用的閱讀app <a href="http://flipboard.com/ " target="_blank">Flipboard</a> 開啟畫面也是Jamie的照片<br><img src="http://28.media.tumblr.com/tumblr_lvugqmyF4o1qzcq51o1_500.gif" width="320" title="welcome to flipboard screen"></p>
+]]></content>
+      
+        <categories>
+            
+            <category> Cinemagraphs </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> gif </tag>
+            
+            <tag> Cinemagraphs </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[會動的照片-慶生]]></title>
+      <url>http://blog.visioncan.com/2012/cinema-graphs-birthday/</url>
+      <content type="html"><![CDATA[<img src="/images/cinemagraphs/HappyBirthGif_s.gif" class="noborder" title="會動的照片-生日">
+<p>2011年在 Hotel One 慶生，拍下了感動瞬間，謝謝老婆!</p>
+]]></content>
+      
+        <categories>
+            
+            <category> Cinemagraphs </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> gif </tag>
+            
+            <tag> Cinemagraphs </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Touch Event.js]]></title>
+      <url>http://blog.visioncan.com/2012/mobile-touch-event-order/</url>
+      <content type="html"><![CDATA[<p><strong><a href="https://github.com/visioncan/touchEvent.js" target="_blank" rel="noopener">TouchEvent.js 1.0</a></strong></p>
+<p>之前作了一個行動版的翻頁播放器，所以把 Touch event 寫成套件使用，把單指的方向(Swipe)及多指的捏合(Pinch)寫成方便直接呼叫的 Funtion，在<br><a href="https://github.com/visioncan/touchEvent.js" target="_blank" rel="noopener">Github</a>上，或許不是那麼適合每個人用 哈！</p>
+<p>也紀錄一下在開發中遇到的問題，原來使用雙指手勢 Gesture Start event 時，同樣會觸發 Touch 的 Start, Move, End event。</p>
+<a id="more"></a>
+<table>
+<thead>
+<tr>
+<th>單指觸控執行順序/</th>
+<th>雙指手勢觸控執行順序</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>↓ touch start</td>
+<td>↓ touch start  </td>
+</tr>
+<tr>
+<td>↓ touch move</td>
+<td>↓ gesture start  </td>
+</tr>
+<tr>
+<td>↓ touch end</td>
+<td>↓ gesture change </td>
+</tr>
+<tr>
+<td></td>
+<td>↓ touch move  </td>
+</tr>
+<tr>
+<td></td>
+<td>↓ gesture end  </td>
+</tr>
+<tr>
+<td></td>
+<td>↓ touch end</td>
+</tr>
+</tbody>
+</table>
+]]></content>
+      
+        <categories>
+            
+            <category> JavaScript </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> touch </tag>
+            
+            <tag> JavaScript </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[在Quick Look預覽視窗中選取文字]]></title>
+      <url>http://blog.visioncan.com/2012/select-text-within-quick-look/</url>
+      <content type="html"><![CDATA[<img src="http://i148.photobucket.com/albums/s20/canwen/blog/120104-0002.png" class="noborder" title="select-text-within-quick-look">
+<p>在Mac裡我覺得超方便的功能之一就是按下空白鍵來啟用Quick Look預覽檔案了!<br>能支援的檔案超多的!連簡報檔也可以直接往下一頁翻，不用開啟肥肥的軟體，<br>ai向量檔也照樣看!想當初還在windows<del>荼毒</del>環境時，還要裝額外的軟體才能看，而且常常因為預覽而導致被快取住，而無法刪除檔案!</p>
+<p>已經愛上Quick Look之後， 在開啟PDF、DOC…等文件時發現，我只是要一行字而已，但卻無法選取，還是得開啟肥滋滋的檔(我甚至連Office都沒有裝)，後來發現可以開啟以下密技就可以選取啦!</p>
+<p>開啟”端終機” (Applications / Utilities / Terminal.app)  輸入以下指令<br><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">defaults write com.apple.finder QLEnableTextSelection -bool TRUE;killall Finder</span><br></pre></td></tr></table></figure></p>
+<p>這樣就可以選取文字或是<code>⌘ + C</code>copy文字啦!</p>
+<p>當然你也可以關掉此功能：<br><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">defaults delete com.apple.finder QLEnableTextSelection;killall Finder</span><br></pre></td></tr></table></figure></p>
+<p>而原本在裡面拖動可以移動視窗，改在上方標題動吧!</p>
+]]></content>
+      
+        <categories>
+            
+            <category> Mac </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> OSX </tag>
+            
+            <tag> apple101 </tag>
+            
+            <tag> quick look </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[iTunes停用自動同步]]></title>
+      <url>http://blog.visioncan.com/2012/apple-101-stop-itunes-auto-sync/</url>
+      <content type="html"><![CDATA[<img src="http://i148.photobucket.com/albums/s20/canwen/blog/itunes10logo.jpg" class="noborder" title="iTunes">
+<p>每次在連接iPhone 或 iPad 等設備時, 在一接上去時馬上就開始同步了，雖然可以馬上再按取消，但有時就是接上去也忘了按，或是還沒設定好要同步的內容就同步了，來看看怎樣關掉吧!</p>
+<ol>
+<li>首先關閉iTunes</li>
+<li>開啟”端終機” (Applications / Utilities / Terminal.app)  輸入以下指令</li>
+</ol>
+<p>#####設定不要自動同步：<br><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">defaults write com.apple.iTunes AutomaticDeviceBackupsDisabled -bool <span class="literal">true</span></span><br></pre></td></tr></table></figure></p>
+<p>#####設定自動同步：<br><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">defaults write com.apple.iTunes AutomaticDeviceBackupsDisabled -bool <span class="literal">false</span></span><br></pre></td></tr></table></figure></p>
+<p>之後連結你的iPhone或是iDevice等設備就不會自動同步啦!</p>
+]]></content>
+      
+        <categories>
+            
+            <category> Mac </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> OSX </tag>
+            
+            <tag> apple101 </tag>
+            
+            <tag> itunes </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[用強大的compass+sass寫css]]></title>
+      <url>http://blog.visioncan.com/2011/compass-sass-your-css/</url>
+      <content type="html"><![CDATA[<p>注意!<br>我不想再誤人子弟，請不要再用 Compass 了，原因請看這裡 →</p>
+<img src="http://s148.photobucket.com/albums/s20/canwen/blog/compass-logo.png" class="noborder" title="compass"><br><br>之前<a href="http://blog.visioncan.com/2011/sass-scss-your-css/" title="使用scss來加速寫css吧!">介紹sass/scss</a>了，現在要來談談Compass，Compass是一個sass的Framework，簡單的說是將原來在sass裡要寫很多次的樣式，Compass都幫你寫好了，再加一些常用的功能，並簡化了寫法，讓你寫css可以不必吹灰之力就寫出你要的效果! 呃~ 也沒這麼誇張!但速度快了不少就是!<br><br><a id="more"></a>
+<p>###安裝Compass<br>在終端機輸入以下就裝完啦!<br><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">gem update --system  <span class="comment">#先更新gem</span></span><br><span class="line">gem install compass  <span class="comment">#安裝Compass</span></span><br></pre></td></tr></table></figure></p>
+<p>安裝時Compass，如果沒有安裝sass，會自動安裝。</p>
+<p>###建立Compass專案吧<br><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">compass creat myproject</span><br></pre></td></tr></table></figure></p>
+<p>myproject是你的專案名字<br><img src="http://i148.photobucket.com/albums/s20/canwen/blog/compass_creat.png" class="noborder" title="compass creat"><br>預設會產生如上面那些檔，接著可以在<code>config.rb</code>裡作設定css、sass、images等的資料夾設定，再依自已喜好吧!<br>接著在終端機輸入<br><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">compass watch</span><br></pre></td></tr></table></figure></p>
+<p>此時你就可以開始編輯你的<code>scss</code>檔了，編輯完存檔，compass會馬上編譯css到你設定的資料夾內，一樣可以按<code>command + c</code> 取消。<br>下次要再編輯就再watch就好</p>
+<p>###來看看有多方便吧</p>
+<ol>
+<li><strong>reset</strong> <figure class="highlight scss"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">@<span class="keyword">import</span> <span class="string">"compass/reset"</span>;</span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+<p>這樣reset的css就幫你寫好了! 超方便!</p>
+<ol>
+<li><strong>常見的css3圓角</strong><figure class="highlight scss"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">@<span class="keyword">import</span> <span class="string">"compass/css3"</span>;</span><br><span class="line"><span class="selector-class">.box</span>&#123;</span><br><span class="line">	@<span class="keyword">include</span> border-radius(<span class="number">5px</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+<p>只要先<code>import &quot;compass/css3&quot;</code>, 之後就可以使用所有css3 的內容，如border-radius、box-shadow、gradient…等，使用方式是<code>@include</code>，其實是compass幫你寫好了<code>@mixin</code>，你只要會用就好，而compass厲害的就是會同時幫你產生各個瀏覽器相對應的css，上面那行所產生的結果：<br><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">-moz-border-radius</span>: 5<span class="selector-tag">px</span>;</span><br><span class="line"><span class="selector-tag">-webkit-border-radius</span>: 5<span class="selector-tag">px</span>;</span><br><span class="line"><span class="selector-tag">-o-border-radius</span>: 5<span class="selector-tag">px</span>;</span><br><span class="line"><span class="selector-tag">-ms-border-radius</span>: 5<span class="selector-tag">px</span>;</span><br><span class="line"><span class="selector-tag">-khtml-border-radius</span>: 5<span class="selector-tag">px</span>;</span><br><span class="line"><span class="selector-tag">border-radius</span>: 5<span class="selector-tag">px</span>;</span><br></pre></td></tr></table></figure></p>
+<p>所有css都幫你產生好了，再也不用全寫了，加上寫這麼多重復的css只會更難閱讀，尤其我非常不愛css屬性重寫再重寫又斷行，搞得打開css檔來，1~2千多行! 維護真的相當累人!加上sass的特性是巢狀結構，讓整個css乾淨清楚不少!</p>
+<ol>
+<li><strong>css3漸層</strong> <figure class="highlight scss"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-class">.box</span>&#123;</span><br><span class="line">	@<span class="keyword">include</span> background(linear-gradient(lighten(red, 20%), red));  <span class="comment">/*線性漸層*/</span></span><br><span class="line">&#125;</span><br><span class="line">```	</span><br><span class="line">一行就搞定所有瀏覽器! 其中`lighten(red, 20%)`是使用sass的加亮顏色功能。</span><br><span class="line"></span><br><span class="line">4. **inline <span class="attribute">background</span>**</span><br><span class="line">```scss</span><br><span class="line"><span class="attribute">background</span>: inline-image(<span class="string">"images/fav_ico.png"</span>) no-repeat;</span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAALAgMAAADtpS7uAAAADFBMVEXnZog0czXs2ZTWSIKDRS6LVsKnx3jhohrRAj8QAAAABJRU5ErkJggg...') no-repeat;</span><br></pre></td></tr></table></figure>
+<p>如果要作inline background不用像之前一樣還要自已轉base64再貼到css了，那天圖片有更新又再得重作一次，現在compass幫你作完了!</p>
+<ol>
+<li><strong>Sprite</strong> <br><br>我覺得…做Sprite是css designer的痛吧!維護非常費工，還要計算座標，萬一改個圖，就要座標重算!css再寫，而且改一個可能動全身!<br><br>哇~ 現在Compass都幫你搞定啦! Compass真是太強大了，三個願望一次滿足!<br>只要將要合併的圖片放在同一個資料夾下，compass會自動產生另一張合併檔，同時設定好座標。<br><img src="http://i148.photobucket.com/albums/s20/canwen/blog/compass_sprite.jpg" class="noborder" title="compass sprite">
+<figure class="highlight scss"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">@<span class="keyword">import</span> <span class="string">"icons/*.png"</span>;</span><br><span class="line">@<span class="keyword">include</span> all-icons-sprites;  <span class="comment">//all-後面接著的「icons」代表著是資料夾名稱</span></span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-class">.icons-sprite</span>,</span><br><span class="line"><span class="selector-class">.icons-facebook</span>,</span><br><span class="line"><span class="selector-class">.icons-twitter</span>,</span><br><span class="line"><span class="selector-class">.icons-yahoo</span> &#123;  <span class="attribute">background</span>: <span class="built_in">url</span>(<span class="string">'icons-s0859518ac7.png'</span>) no-repeat; &#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.icons-facebook</span> &#123;  <span class="attribute">background-position</span>: <span class="number">0</span> <span class="number">0</span>; &#125;</span><br><span class="line"><span class="selector-class">.icons-twitter</span> &#123;  <span class="attribute">background-position</span>: <span class="number">0</span> -<span class="number">32px</span>; &#125;</span><br><span class="line"><span class="selector-class">.icons-yahoo</span> &#123;  <span class="attribute">background-position</span>: <span class="number">0</span> -<span class="number">64px</span>; &#125;</span><br></pre></td></tr></table></figure>
+<p>更多compass sprite教學及設定:<br><a href="http://compass-style.org/help/tutorials/spriting/" target="_blank" rel="noopener">http://compass-style.org/help/tutorials/spriting/</a></p>
+<p>其它還有更多功能:<br><a href="http://compass-style.org/reference/compass/" target="_blank" rel="noopener">http://compass-style.org/reference/compass/</a></p>
+<p>##debug呢?</p>
+<figure class="highlight rb"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">output_style = <span class="symbol">:compressed</span>     <span class="comment">#css壓縮設定</span></span><br><span class="line">sass_options = &#123;<span class="symbol">:debug_info</span> =&gt; <span class="literal">true</span>&#125;   <span class="comment">#debug</span></span><br></pre></td></tr></table></figure>
+<p>開啟<code>config.rb</code>設定檔，加入上面文字後，重新產生css，Firebug就可以看到該樣式是寫在那一行了，<a href="http://blog.visioncan.com/2011/sass-scss-your-css/#debug" title="sass debug">sass debug外掛安裝說明</a>。</p>
+<p>Compass真的讓css designer輕鬆了不少，對了，目前我使用的blog <a href="http://octopress.org/" target="_blank">Octopress</a>也是使用Compass，這也是我想用這套blog系統的其中一個原因，寫css真的回不去了!! 下個專案改用Compass吧!</p>
+<p>##Sass &amp; Compass投影片介紹<br>來看看這份相當詳細又實用的投影片介紹吧!</p>
+<script src="http://speakerdeck.com/embed/4eb80921b029470054011d3f.js"></script>
+
+
+]]></content>
+      
+        <categories>
+            
+            <category> scss </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> scss </tag>
+            
+            <tag> compass </tag>
+            
+            <tag> css </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[使用scss來加速寫css吧!]]></title>
+      <url>http://blog.visioncan.com/2011/sass-scss-your-css/</url>
+      <content type="html"><![CDATA[<img src="http://farm4.staticflickr.com/3795/10847418394_7466d7ea23_o.png" class="noborder">
+<p>今天來介紹sass/scss，一個讓我回不去過往寫css的語言</p>
+<p>###sass/scss是啥?<br>Sass (Syntactically Awesome Stylesheets)是寫css樣式表的一個程式語言，語法跟css一樣(但多了些功能)，比css來得好寫，且來得更容易閱讀，寫css的Designer不用考慮，可以換了! 但最好是配合compass!<br><a href="http://en.wikipedia.org/wiki/Sass_(stylesheet_language)" target="_blank">Sass詳細介紹</a><br>或見<a href="http://sass-lang.com" target="_blank">官網</a>。</p>
+<p>###sass跟scss差在那?<br>sass是屬於縮排語法，語法類似haml，sass與haml用意是為了更精簡，快速寫html及css，後來在css3之後延伸出scss，寫法近似css。<br><br>簡單說就是一個有花括號、分號(scss)，一個沒有(sass)。<br><br>scss 對於會寫 css 的人來說，比較容易上手，本篇就都以scss作為範例的code!</p>
+<a id="more"></a>
+<p>###安裝<br>需要一台Mac, 在終端機輸入 (windows也能用，但…有空再寫安裝方法吧~)<br><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">gem install sass</span><br></pre></td></tr></table></figure></p>
+<p>接著進入在你的scss檔案的資料夾，並執行sass<br><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> css</span><br><span class="line">sass --watch style.scss:style.css</span><br></pre></td></tr></table></figure></p>
+<p>上面指令是sass會開始監視你的style.scss檔案，在檔案儲存時，會馬上把style.scss編譯成style.css，隨時可以按Command + C 取消監視</p>
+<p>###scss有幾個主要特色<br>左邊為原始scss檔，右邊為編譯過後的：<br><br><strong>1.Variables 變數</strong><br><br>使用<code>$</code>作為開頭當參數<br><img src="http://i148.photobucket.com/albums/s20/canwen/blog/sass_Variables.png" class="noborder"></p>
+<p><strong>2.Nesting 巢狀結構</strong><br><br>很清楚的知道 誰是誰的子元素，不用像以前一樣 寫一大排重復的開頭了<br><img src="http://i148.photobucket.com/albums/s20/canwen/blog/sass_Nesting.png" class="noborder"></p>
+<p><strong>3.Mixins </strong><br><br>其實就像function一樣使用，還可以帶參數<br><img src="http://i148.photobucket.com/albums/s20/canwen/blog/sass_Mixins.png" class="noborder"><br>設定預設參數<br><img src="http://i148.photobucket.com/albums/s20/canwen/blog/sass_MixinsWithParam.png" class="noborder"></p>
+<p><strong>4.Inheritance 繼承</strong><br><br><img src="http://i148.photobucket.com/albums/s20/canwen/blog/sass_Inheritance.png" class="noborder"></p>
+<p>###另外幾個常用的功能<br><strong>1.@import</strong><br><br>可以將網站的各部份樣式拆開成<code>_head.scss</code>, <code>_body.scss</code>, <code>_foot.scss</code>放置在base資料夾下，可利用@import功能把3個檔納入到<code>main.css</code>裡<br><img src="http://i148.photobucket.com/albums/s20/canwen/blog/sass_import.jpg" alt="noborder"><br><br>只要在<code>main.scss</code>加上<br><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">@<span class="keyword">import</span> <span class="string">"base/head"</span>;</span><br><span class="line">@<span class="keyword">import</span> <span class="string">"base/body"</span>;</span><br><span class="line">@<span class="keyword">import</span> <span class="string">"base/foot"</span>;</span><br></pre></td></tr></table></figure></p>
+<p><code>_head.scss</code>, <code>_body.scss</code>, <code>_foot.scss</code> 這些檔案都不會被編譯成css，記得檔案名稱需以 <code>_</code> 底線作開頭!</p>
+<p><strong>2.算數</strong><br><img src="http://i148.photobucket.com/albums/s20/canwen/blog/sass_count.png" class="noborder"></p>
+<p><strong>3.顏色功能</strong><br><figure class="highlight scss"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">lighten(red, 50%) <span class="comment">//增亮50%</span></span><br><span class="line">darken(blue, 50%) <span class="comment">//變暗50%</span></span><br></pre></td></tr></table></figure></p>
+<p>更多功能參見<a href="http://sass-lang.com/docs/yardoc/Sass/Script/Functions.html" target="_blank">官方說明</a></p>
+<p>###其它筆記!<br>更換<a href="http://sass-lang.com/docs/yardoc/file.SASS_REFERENCE.html#id15" target="_blank">css壓縮樣式</a><br><figure class="highlight sh"><figcaption><span>以expanded壓縮方式</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sass --watch --style expanded style.scss:style.css</span><br></pre></td></tr></table></figure></p>
+<p>編譯出來的css：<br><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-id">#main</span> &#123;</span><br><span class="line">  <span class="attribute">color</span>: <span class="number">#fff</span>;</span><br><span class="line">  <span class="attribute">background-color</span>: <span class="number">#000</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-id">#main</span> <span class="selector-tag">p</span> &#123;</span><br><span class="line">  <span class="attribute">width</span>: <span class="number">10em</span>;</span><br><span class="line">&#125;</span><br><span class="line">...</span><br></pre></td></tr></table></figure></p>
+<figure class="highlight sh"><figcaption><span>以compressed壓縮方式</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sass --watch --style compressed style.scss:style.css</span><br></pre></td></tr></table></figure>
+<p>編譯出來的css：<br><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-id">#main</span>&#123;<span class="attribute">color</span>:<span class="number">#fff</span>;<span class="attribute">background-color</span>:<span class="number">#000</span>&#125;<span class="selector-id">#main</span> <span class="selector-tag">p</span>&#123;<span class="attribute">width</span>:<span class="number">10em</span>&#125;...</span><br></pre></td></tr></table></figure></p>
+<p></p><h2 id="debug">要debug怎麼辨?</h2><br>1.Firefox裝<a href="https://addons.mozilla.org/en-US/firefox/addon/firesass-for-firebug/" target="_blank">FireSass for Firebug外掛</a><p></p>
+<p>2.重新編譯<br><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sass --watch --debug-info style.scss:style.css  <span class="comment">#開啟debug模式 (記得要先刪原本編譯出的css)</span></span><br></pre></td></tr></table></figure></p>
+<p>之後在Firebug裡就可以看見啦<br><img src="http://i148.photobucket.com/albums/s20/canwen/blog/firebug_sass.png"></p>
+<p>還有線上可以直接測試<br><a href="http://sass-lang.com/try.html" target="_blank">http://sass-lang.com/try.html</a></p>
+<p>其實sass/scss只是利於編寫css而產生的一個語言，但今天要寫符合各瀏覽器前綴詞的css，你還是得自已寫<code>@maxin</code>把<code>-moz</code>, <code>-webkit</code>, <code>-o</code>, <code>-ms</code>寫起來，如果遇到要寫css3的gradient呢? 又要可以改參數呢? 那會瘋掉! 因為我寫過，後來就放棄了!<br>因為有個更強大的Compass來幫忙! 來看看<a href="http://blog.visioncan.com/2011/compass-sass-your-css/" title="用強大的compass+sass寫css">Compass有多厲害</a>!</p>
+]]></content>
+      
+        <categories>
+            
+            <category> scss </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> scss </tag>
+            
+            <tag> sass </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Mac螢幕字體平滑方式修改]]></title>
+      <url>http://blog.visioncan.com/2011/apple-mac-screen-font-smoothing/</url>
+      <content type="html"><![CDATA[<p>用了dell螢幕好一陣子了，但不管我亮度、對比怎麼調，就是沒辨法像MacBookPro一樣的字體圓滑程度，由於我用的編輯器多半是以黑色為背景，字體圓滑程度不夠，常常造成白色及淺灰或相近色的字沒有清楚分明，實在不易閱讀，googling一下，總於找到答案了! 嚴重的覺得這跟本就是秘技+計謀，Apple就是要你買他們家的啊~</p>
+<p>由於Apple只認自家螢幕的subpixel，難怪他牌的螢幕字體圓滑程度看起來不一樣。</p>
+<p>修改 <em>有3程程度可以選:</em>    </p>
+<ul>
+<li>1 : light smoothing (輕)</li>
+<li>2 : Medium - Best for Flat Panel (中等)</li>
+<li>3 : strong smoothing (重)<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">defaults -currentHost write -g AppleFontSmoothing -int 3   <span class="comment">#程度為3</span></span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<a id="more"></a>
+<p>刪除<br><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">defaults -currentHost delete -g AppleFontSmoothing</span><br></pre></td></tr></table></figure></p>
+<p>觀看目前設定的設定<br><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">defaults -currentHost <span class="built_in">read</span> -g AppleFontSmoothing</span><br></pre></td></tr></table></figure></p>
+<p>p.s.如果是Snow Leopard的OS，把上面終端機打的<code>-g</code>換成<code>-globalDomain</code>就ok.</p>
+<p>修改前後 好閱讀多了!<br><img src="http://i148.photobucket.com/albums/s20/canwen/blog/Apple_mac_Font_Smoothing-1.png" alt="Mac Font Smoothing" class="noborder"></p>
+]]></content>
+      
+        <categories>
+            
+            <category> Mac </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Font </tag>
+            
+            <tag> OSX </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Octopress 安裝筆記]]></title>
+      <url>http://blog.visioncan.com/2011/install-octopress/</url>
+      <content type="html"><![CDATA[<p>其實<a href="http://octopress.org/docs/setup/" target="_blank">官方的說明</a>也有，但因為我Xcode的環境不一樣，還是來註記一下!</p>
+<p>Octopress Blog環境需求:</p>
+<ul>
+<li>要安裝<a href="http://git-scm.com/" target="_blank">Git</a></li>
+<li>最低要Ruby 1.9.2, 可以透過<a href="http://rvm.beginrescueend.com/" target="_blank">RVM</a> or <a href="https://github.com/sstephenson/rbenv" target="_blank">rbenv</a>安裝，擇一</li>
+</ul>
+<p>我是使用RVM，至於Git的安裝及ssh驗證，可以看看<a href="http://help.github.com/set-up-git-redirect" target="_blank">官方說明</a>，很詳細。</p>
+<a id="more"></a>
+<p>####1.首先安裝RVM<br>    <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">bash &lt; &lt;(curl -s https://rvm.beginrescueend.com/install/rvm)</span><br></pre></td></tr></table></figure></p>
+<p>####2.寫入profile到.bash_profile檔案裡<br>    <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">echo &apos;[[ -s &quot;$HOME/.rvm/scripts/rvm&quot; ]] &amp;&amp; . &quot;$HOME/.rvm/scripts/rvm&quot; # Load RVM function&apos; &gt;&gt; ~/.bash_profile</span><br></pre></td></tr></table></figure></p>
+<p>####3.裝Ruby，官方說明是安裝1.9.2，但由於我是使用Xcode 4.2, 在裝完RVM時，應該會警告你，建議使用4.1在編譯1.9.2才不會出錯，但我實在不想重裝Xcode, 就只能裝Ruby1.9.3以後的版本，但要注意的是，直接安裝會有<a href="http://stackoverflow.com/questions/8032824/cant-install-ruby-under-lion-with-rvm-gcc-issues" target="_blank">non-LLVM</a>問題, 所以使用以下方法安裝<br>    <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">rvm install 1.9.3 --with-gcc=clang</span><br></pre></td></tr></table></figure></p>
+<p>####3.1 還有這個動作<br>    <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">rvm use 1.9.3</span><br></pre></td></tr></table></figure></p>
+<p>####4.接著就下載Octopress 及 相關軟體<br><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">git <span class="built_in">clone</span> git://github.com/imathis/octopress.git</span><br><span class="line"><span class="built_in">cd</span> octopress</span><br><span class="line">gem install bundler </span><br><span class="line">bundle install </span><br><span class="line">rake install</span><br></pre></td></tr></table></figure></p>
+<p>####5.然後在octopress目錄下, 我有幾個地方有設定的:<br><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">_config.yml  <span class="comment"># blog主要設定配置檔</span></span><br><span class="line">config.rb    <span class="comment"># Compass 的設定檔</span></span><br><span class="line">Rakefile     <span class="comment"># rake產生及發怖網頁設定檔</span></span><br></pre></td></tr></table></figure></p>
+<p>####6.建立新文章!<br>新文章會放在<code>source/_posts</code>，使用markdown檔案方式寫文<br><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">rake new_post[<span class="string">"title"</span>]</span><br></pre></td></tr></table></figure></p>
+<p>####7.部署到Github! <a href="http://octopress.org/docs/deploying/github/" target="_blank">官方說明</a><br>我是採用Project pages (gh-pages)的方式，這邊就照作啦~</p>
+<p>####8.改一下版型吧!<br>先到<code>config.rb</code>替sass加上debug的標記，好讓Firebug只知道樣式在那一個檔裡，所有樣式檔都放在sass資料夾下，建議是把要改的樣式寫在<code>sass/custom/_styles.scss</code>裡，因為這個檔是最後載入，可以覆寫之前的樣式，一方面有改版時，只要覆蓋custom資料夾就好. <br><br><img src="http://i148.photobucket.com/albums/s20/canwen/blog/firebug_sass.png" alt="firebug sass"><br><figure class="highlight rb"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sass_options = &#123;<span class="symbol">:debug_info</span> =&gt; <span class="literal">true</span>&#125;</span><br><span class="line">line_comments = <span class="literal">true</span></span><br></pre></td></tr></table></figure></p>
+<p>####9.自訂網址<br>新增<code>CNAME</code>檔案到source下，<code>CNAME</code>檔裡填寫自訂網址，一樣要怖署到Github上<br><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">echo</span> <span class="string">'blog.visioncan.com'</span> &gt;&gt; <span class="built_in">source</span>/CNAME</span><br></pre></td></tr></table></figure><br>接著就要到你註冊的網域新增CNAME, 我是在Hostmonster裡設定</p>
+<pre><code>1. DNS Zone Editor -&gt; 選擇domain 
+2. Add DNS Record
+   Host Record: blog
+   TTL: 不改
+   Type: CNAME
+   Points To: visioncan.github.com
+</code></pre><p>等dns生效吧!</p>
+<h4 id="附-rake-功能"><a href="#附-rake-功能" class="headerlink" title="附:rake 功能"></a>附:rake 功能</h4><p><code>rake -T</code><br><figure class="highlight rb"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line">rake clean                 <span class="comment"># Clean out caches: .pygments-cache, .gist-cache, .sass-cache</span></span><br><span class="line">rake copydot[source,dest]  <span class="comment"># copy dot files for deployment</span></span><br><span class="line">rake deploy                <span class="comment"># Default deploy task</span></span><br><span class="line">rake gen_deploy            <span class="comment"># Generate website and deploy</span></span><br><span class="line">rake generate              <span class="comment"># Generate jekyll site</span></span><br><span class="line">rake install[theme]        <span class="comment"># Initial setup for Octopress: copies the default theme into the path of Jekyll's generator.</span></span><br><span class="line">rake integrate             <span class="comment"># Move all stashed posts back into the posts directory, ready for site generation.</span></span><br><span class="line">rake isolate[filename]     <span class="comment"># Move all other posts than the one currently being worked on to a temporary stash location (stash) so regener...</span></span><br><span class="line">rake list                  <span class="comment"># list tasks</span></span><br><span class="line">rake new_page[filename]    <span class="comment"># Create a new page in source/(filename)/index.markdown</span></span><br><span class="line">rake new_post[title]       <span class="comment"># Begin a new post in source/_posts</span></span><br><span class="line">rake preview               <span class="comment"># preview the site in a web browser</span></span><br><span class="line">rake push                  <span class="comment"># deploy public directory to github pages</span></span><br><span class="line">rake rsync                 <span class="comment"># Deploy website via rsync</span></span><br><span class="line">rake set_root_dir[dir]     <span class="comment"># Update configurations to support publishing to root or sub directory</span></span><br><span class="line">rake setup_github_pages    <span class="comment"># Set up _deploy folder and deploy branch for Github Pages deployment</span></span><br><span class="line">rake update_source[theme]  <span class="comment"># Move source to source.old, install source theme updates, replace source/_includes/navigation.html with sourc...</span></span><br><span class="line">rake update_style[theme]   <span class="comment"># Move sass to sass.old, install sass theme updates, replace sass/custom with sass.old/custom</span></span><br><span class="line">rake watch                 <span class="comment"># Watch the site and regenerate when it changes</span></span><br></pre></td></tr></table></figure></p>
+]]></content>
+      
+        <categories>
+            
+            <category> Blog </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Octopress </tag>
+            
+        </tags>
+        
+    </entry>
+    
+  
+  
+</search>

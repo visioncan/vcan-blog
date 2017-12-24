@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>Migrate to Hexo blog 順便作個小模組 | VISIONCAN</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="keywords" content="Hexo,blog,flickr">
+  <meta name="description" content="我換到 Hexo 了，之前是使用 Octopress，當初會使用 Octopress 最大吸引我的就是使用 markdown 來寫 blog 文章，覺得比較快速方便，其次是可以丟到 github page 上還可以自訂網址! 這麼讚!馬上就跳過去了.  使用一段時間之後發現它產生文章真的有點慢…我文章就已經在不多了還很慢，而其中比較困擾我的是我修改了文章內容，本機預覽卻不會馬上出現，而是要重整個">
+<meta name="keywords" content="Hexo,blog,flickr">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Migrate to Hexo blog 順便作個小模組">
+<meta property="og:url" content="http://blog.visioncan.com/2014/migrate-to-hexo/index.html">
+<meta property="og:site_name" content="VISIONCAN">
+<meta property="og:description" content="我換到 Hexo 了，之前是使用 Octopress，當初會使用 Octopress 最大吸引我的就是使用 markdown 來寫 blog 文章，覺得比較快速方便，其次是可以丟到 github page 上還可以自訂網址! 這麼讚!馬上就跳過去了.  使用一段時間之後發現它產生文章真的有點慢…我文章就已經在不多了還很慢，而其中比較困擾我的是我修改了文章內容，本機預覽卻不會馬上出現，而是要重整個">
+<meta property="og:locale" content="zh-TW">
+<meta property="og:image" content="https://raw.githubusercontent.com/hexojs/logo/master/hexo-logo.png">
+<meta property="og:image" content="https://farm3.staticflickr.com/2939/14195708244_a52b6b4505.jpg">
+<meta property="og:updated_time" content="2014-08-09T16:34:33.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Migrate to Hexo blog 順便作個小模組">
+<meta name="twitter:description" content="我換到 Hexo 了，之前是使用 Octopress，當初會使用 Octopress 最大吸引我的就是使用 markdown 來寫 blog 文章，覺得比較快速方便，其次是可以丟到 github page 上還可以自訂網址! 這麼讚!馬上就跳過去了.  使用一段時間之後發現它產生文章真的有點慢…我文章就已經在不多了還很慢，而其中比較困擾我的是我修改了文章內容，本機預覽卻不會馬上出現，而是要重整個">
+<meta name="twitter:image" content="https://raw.githubusercontent.com/hexojs/logo/master/hexo-logo.png">
+<meta name="twitter:creator" content="@visioncan">
+  
+    <link rel="alternative" href="/atom.xml" title="VISIONCAN" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.ico">
+  
+  <link href="http://fonts.googleapis.com/css?family=Source+Code+Pro|Open+Sans:400,700|Lato:100,400" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="/css/style.css">
+  
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-1535239-6']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+</head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">
+            
+                <img src="/css/images/logo.svg" alt="VISIONCAN">
+                <span>VISIONCAN</span>
+            
+        </a>
+      </h1>
+      
+        <h2 id="subtitle-wrap">
+          <a href="/" id="subtitle">Design with Code!</a>
+        </h2>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://blog.visioncan.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+
+      <div class="outer">
+        <section id="main"><article id="post-migrate-to-hexo" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2014/migrate-to-hexo/" class="article-date">
+  <time datetime="2014-05-15T05:48:53.000Z" itemprop="datePublished">2014-05-15</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/Blog/">Blog</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      Migrate to Hexo blog 順便作個小模組
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p><br><br><img src="https://raw.githubusercontent.com/hexojs/logo/master/hexo-logo.png" class="nofancybox" width="400"></p>
+<p>我換到 <a href="http://hexo.io/" target="_blank" rel="noopener">Hexo</a> 了，之前是使用 <a href="http://octopress.org/" target="_blank" rel="noopener">Octopress</a>，當初會使用 Octopress 最大吸引我的就是使用 markdown 來寫 blog 文章，覺得比較快速方便，其次是可以丟到 github page 上還可以自訂網址! 這麼讚!馬上就跳過去了. </p>
+<p>使用一段時間之後發現它產生文章真的有點慢…我文章就已經在不多了還很慢，而其中比較困擾我的是我修改了文章內容，本機預覽卻不會馬上出現，而是要重整個幾次才出現，當然後來也知道了<a href="http://stackoverflow.com/questions/13217394/how-to-speed-up-jekyll-octopress-generation" target="_blank" rel="noopener">解法</a>.</p>
+<p>之後是在發佈到 github page 時卻產生了一種不確定感，因為 deploy 失敗，要 fast-forward，後來有網路紅人作了 <a href="logdown.com">Logdown</a>，使用 markdown 編輯器，也可自訂網址，超強! 還有很多 feature，使用上也是非常方便啊!!!</p>
+<p>但我個人還是比較喜歡自已自訂些東西，所以後來發現 <a href="http://hexo.io/" target="_blank" rel="noopener">Hexo</a> 使用 node.js 作的 blog framework，真不愧是目前火紅的 JS 從前端走到後端啊! 功能我覺得跟 Octopress 挺相似的，但最大優勢就是速度快啊~<br>而且覺得 Octopress 的安裝還是有一定的門檻在，相較 Hexo 簡單得多些…</p>
+<p>以上碎念，來看怎麼裝 Hexo 吧!</p>
+<h3 id="先安裝-node-js"><a href="#先安裝-node-js" class="headerlink" title="先安裝 node.js"></a>先安裝 <a href="http://nodejs.org/download/" target="_blank" rel="noopener">node.js</a></h3><p>Node.js 可以說是個使用 Javascript 語言的伺服器後端，選作業系統安裝，此安裝會幫系統裝 node 及 npm (Node Packaged Modules node 的套件管理工具)。</p>
+<a id="more"></a>
+<h3 id="接下來就可以裝-Hexo-了"><a href="#接下來就可以裝-Hexo-了" class="headerlink" title="接下來就可以裝 Hexo 了"></a>接下來就可以裝 <a href="http://hexo.io/" target="_blank" rel="noopener">Hexo</a> 了</h3><p>在終端機輸入 <code>npm install hexo -g</code> 會把 hexo 下載並安裝</p>
+<p>接著進到你想安裝 blog 的路徑，再輸入 <code>hexo init blog &amp;&amp; cd blog</code> hexo 會把需要用到的檔丟到 blog 這個資料夾。<br>之後再執行 <code>hexo server</code> 就可在網址打 <code>http://0.0.0.0:4000</code> 預覽! 你可以編輯 <code>_config.yml</code> 來設定更多 blog 選項。<br><a href="http://hexo.io/docs/configuration.html" target="_blank" rel="noopener">這有詳細的設定說明</a></p>
+<p>執行 <code>hexo generate</code> 會在 public 資料夾下產生靜態檔，只要執行 <code>hexo deploy</code> 這些靜態檔就可以部屬到自已的網頁空間、 github 或 heroku 等等…  Hexo 還有蠻多 <a href="https://github.com/tommy351/hexo/wiki/Plugins" target="_blank" rel="noopener">plugins</a> 看你有什麼需求再安裝吧!</p>
+<p>而文章的 markdown 原始檔及圖片都會放在 source 資料夾下，當你執行 <code>hexo new &quot;New Post&quot;</code> 建立新文章時，也會放在這資料夾下，以上是簡單的介紹，詳細可以看<a href="http://hexo.io/docs/" target="_blank" rel="noopener">官網說明</a> 說明得蠻清楚的!</p>
+<h3 id="Hexo-Flickr-tag-模組開發"><a href="#Hexo-Flickr-tag-模組開發" class="headerlink" title="Hexo Flickr tag 模組開發"></a>Hexo Flickr tag 模組開發</h3><p>在得知 hexo 後，立馬就在我本機先裝了起來，從 octopress 轉移到 hexo 應該還蠻<strong>無痛</strong>的，但我不是，為什麼這麼說呢? 因為如果用了某個 tag 模組就 gg 了!</p>
+<p>因為我的 md 文章裡有用到 `{% flickr %}` 來直接取得 flickr 的照片，由於 hexo 沒有這個 tag 模組，在 generate 時了噴好多錯誤，而我文章裡又用了不少，我又不想一個一個改成 `{% img %}`，大致看了一下文件，決定來自已<del>造輪子</del>開發了。</p>
+<p>一開始使用 plugin 的 tag 方法結果發現是直接轉換 html，沒法等待取得 flick api 資料，問了作者 @tommy351 才得知可用 Filter 方法，可以等處理完資料在 callback，結果對 node 很嫩的我搞了好久，才弄出來，後來測試發現只能用在一個文章，多篇就一樣會有還沒取完資料就跑 server 了，等於 flickr 標籤還沒被替換就生成 html 了，一度還想要放棄，還試過 async 還是有問題，後來發現 Filter 可設定 pre 或 post，在經過幾次空白標籤的洗禮後，總於使用 pre 解決了，之前一直使用 post … </p>
+<p>而使用 hexo-tag-flickr 的最大好處呢就是，想貼上 flickr 照片時，只要把 flickr 網址中那串數字 copy 下來，貼到 markdown 文章裡的 flickr tag，就可以自動幫你產出照片了，不用還要去按分享取得這張照片的實際 url，當然應該只有像我把 blog 的圖丟到 flickr 的人比較有這樣的需求… 呵!</p>
+<img src="https://farm3.staticflickr.com/2939/14195708244_a52b6b4505.jpg" width="500" class="nofancybox" alt="hexo-tag-plugin-flickr">
+<p>如果有在使用 flickr 的人可以安裝一下 <code>npm install hexo-tag-flickr --save</code>，雖然有 bug 我可能<del>不見得會修</del>會修得比較慢，請鞭小力點 &lt;(<em>_</em> <em>_</em>)&gt;。</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://blog.visioncan.com/2014/migrate-to-hexo/" data-id="cjbl1bue2001ezuz6za8u8b4w" class="article-share-link">Share</a>
+      
+        <a href="http://blog.visioncan.com/2014/migrate-to-hexo/#disqus_thread" class="article-comment-link">Comments</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/blog/">blog</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/hexo/">hexo</a></li></ul>
+
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2014/unboxing-macbookpro-retina/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          港版 MacBookPro Retina 新體驗
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2013/xcode-sublime-themes-fonts/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">Xcode and sublimetext themes fonts</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+
+<section id="comments">
+  <div id="disqus_thread">
+    <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  </div>
+</section>
+</section>
+        
+          <aside id="sidebar">
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Categories</h3>
+    <div class="widget">
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Alfred/">Alfred</a><span class="category-list-count">3</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Blog/">Blog</a><span class="category-list-count">3</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Cinemagraphs/">Cinemagraphs</a><span class="category-list-count">3</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Development/">Development</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/JavaScript/">JavaScript</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Mac/">Mac</a><span class="category-list-count">6</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Objective-C/">Objective-C</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Plex/">Plex</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Theme/">Theme</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/scss/">scss</a><span class="category-list-count">2</span></li></ul>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tag Cloud</h3>
+    <div class="widget tagcloud">
+      <a href="/tags/Alfred/" style="font-size: 13.33px;">Alfred</a> <a href="/tags/App/" style="font-size: 13.33px;">App</a> <a href="/tags/AppleTV3/" style="font-size: 10px;">AppleTV3</a> <a href="/tags/Chrome/" style="font-size: 10px;">Chrome</a> <a href="/tags/Cinemagraphs/" style="font-size: 16.67px;">Cinemagraphs</a> <a href="/tags/CocoaPods/" style="font-size: 10px;">CocoaPods</a> <a href="/tags/Font/" style="font-size: 10px;">Font</a> <a href="/tags/Fusion-Drive/" style="font-size: 10px;">Fusion Drive</a> <a href="/tags/JavaScript/" style="font-size: 10px;">JavaScript</a> <a href="/tags/OSX/" style="font-size: 20px;">OSX</a> <a href="/tags/Objective-C/" style="font-size: 13.33px;">Objective-C</a> <a href="/tags/Octopress/" style="font-size: 13.33px;">Octopress</a> <a href="/tags/Plex/" style="font-size: 10px;">Plex</a> <a href="/tags/SSD/" style="font-size: 10px;">SSD</a> <a href="/tags/Sketch/" style="font-size: 10px;">Sketch</a> <a href="/tags/Theme/" style="font-size: 10px;">Theme</a> <a href="/tags/Xcode/" style="font-size: 13.33px;">Xcode</a> <a href="/tags/apple101/" style="font-size: 13.33px;">apple101</a> <a href="/tags/blog/" style="font-size: 10px;">blog</a> <a href="/tags/brew/" style="font-size: 10px;">brew</a> <a href="/tags/cask/" style="font-size: 10px;">cask</a> <a href="/tags/compass/" style="font-size: 10px;">compass</a> <a href="/tags/css/" style="font-size: 10px;">css</a> <a href="/tags/gif/" style="font-size: 16.67px;">gif</a> <a href="/tags/hexo/" style="font-size: 10px;">hexo</a> <a href="/tags/iOS/" style="font-size: 10px;">iOS</a> <a href="/tags/itunes/" style="font-size: 10px;">itunes</a> <a href="/tags/mac/" style="font-size: 10px;">mac</a> <a href="/tags/osx/" style="font-size: 10px;">osx</a> <a href="/tags/quick-look/" style="font-size: 10px;">quick look</a> <a href="/tags/sass/" style="font-size: 10px;">sass</a> <a href="/tags/scss/" style="font-size: 13.33px;">scss</a> <a href="/tags/sublimetext/" style="font-size: 10px;">sublimetext</a> <a href="/tags/touch/" style="font-size: 10px;">touch</a> <a href="/tags/unboxing/" style="font-size: 10px;">unboxing</a> <a href="/tags/workflow/" style="font-size: 10px;">workflow</a>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recents</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2014/moved-to-sketch/">來用 Sketch 畫你的 UI 吧</a>
+          </li>
+        
+          <li>
+            <a href="/2014/introducing-cask/">Cask 讓 OSX 安裝軟體更有效率</a>
+          </li>
+        
+          <li>
+            <a href="/2014/unboxing-macbookpro-retina/">港版 MacBookPro Retina 新體驗</a>
+          </li>
+        
+          <li>
+            <a href="/2014/migrate-to-hexo/">Migrate to Hexo blog 順便作個小模組</a>
+          </li>
+        
+          <li>
+            <a href="/2013/xcode-sublime-themes-fonts/">Xcode and sublimetext themes fonts</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+    
+  
+    <div class="widget-wrap">
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:inline-block;width:300px;height:250px"
+     data-ad-client="ca-pub-9186479821353585"
+     data-ad-slot="3142020137"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2017 visioncan<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+<script>
+  var disqus_shortname = 'vcan';
+  
+  var disqus_url = 'http://blog.visioncan.com/2014/migrate-to-hexo/';
+  
+  (function(){
+    var dsq = document.createElement('script');
+    dsq.type = 'text/javascript';
+    dsq.async = true;
+    dsq.src = '//go.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/script.js"></script>
+  </div>
+</body>
+</html>

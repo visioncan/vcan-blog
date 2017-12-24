@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>Octopress 安裝筆記 | VISIONCAN</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="keywords" content="Octopress,install">
+  <meta name="description" content="其實官方的說明也有，但因為我Xcode的環境不一樣，還是來註記一下! Octopress Blog環境需求:  要安裝Git 最低要Ruby 1.9.2, 可以透過RVM or rbenv安裝，擇一  我是使用RVM，至於Git的安裝及ssh驗證，可以看看官方說明，很詳細。">
+<meta name="keywords" content="Octopress,install">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Octopress 安裝筆記">
+<meta property="og:url" content="http://blog.visioncan.com/2011/install-octopress/index.html">
+<meta property="og:site_name" content="VISIONCAN">
+<meta property="og:description" content="其實官方的說明也有，但因為我Xcode的環境不一樣，還是來註記一下! Octopress Blog環境需求:  要安裝Git 最低要Ruby 1.9.2, 可以透過RVM or rbenv安裝，擇一  我是使用RVM，至於Git的安裝及ssh驗證，可以看看官方說明，很詳細。">
+<meta property="og:locale" content="zh-TW">
+<meta property="og:image" content="http://i148.photobucket.com/albums/s20/canwen/blog/firebug_sass.png">
+<meta property="og:updated_time" content="2014-01-02T03:38:07.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Octopress 安裝筆記">
+<meta name="twitter:description" content="其實官方的說明也有，但因為我Xcode的環境不一樣，還是來註記一下! Octopress Blog環境需求:  要安裝Git 最低要Ruby 1.9.2, 可以透過RVM or rbenv安裝，擇一  我是使用RVM，至於Git的安裝及ssh驗證，可以看看官方說明，很詳細。">
+<meta name="twitter:image" content="http://i148.photobucket.com/albums/s20/canwen/blog/firebug_sass.png">
+<meta name="twitter:creator" content="@visioncan">
+  
+    <link rel="alternative" href="/atom.xml" title="VISIONCAN" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.ico">
+  
+  <link href="http://fonts.googleapis.com/css?family=Source+Code+Pro|Open+Sans:400,700|Lato:100,400" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="/css/style.css">
+  
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-1535239-6']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+</head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">
+            
+                <img src="/css/images/logo.svg" alt="VISIONCAN">
+                <span>VISIONCAN</span>
+            
+        </a>
+      </h1>
+      
+        <h2 id="subtitle-wrap">
+          <a href="/" id="subtitle">Design with Code!</a>
+        </h2>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://blog.visioncan.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+
+      <div class="outer">
+        <section id="main"><article id="post-install-octopress" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2011/install-octopress/" class="article-date">
+  <time datetime="2011-11-13T02:12:00.000Z" itemprop="datePublished">2011-11-13</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/Blog/">Blog</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      Octopress 安裝筆記
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>其實<a href="http://octopress.org/docs/setup/" target="_blank">官方的說明</a>也有，但因為我Xcode的環境不一樣，還是來註記一下!</p>
+<p>Octopress Blog環境需求:</p>
+<ul>
+<li>要安裝<a href="http://git-scm.com/" target="_blank">Git</a></li>
+<li>最低要Ruby 1.9.2, 可以透過<a href="http://rvm.beginrescueend.com/" target="_blank">RVM</a> or <a href="https://github.com/sstephenson/rbenv" target="_blank">rbenv</a>安裝，擇一</li>
+</ul>
+<p>我是使用RVM，至於Git的安裝及ssh驗證，可以看看<a href="http://help.github.com/set-up-git-redirect" target="_blank">官方說明</a>，很詳細。</p>
+<a id="more"></a>
+<p>####1.首先安裝RVM<br>    <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">bash &lt; &lt;(curl -s https://rvm.beginrescueend.com/install/rvm)</span><br></pre></td></tr></table></figure></p>
+<p>####2.寫入profile到.bash_profile檔案裡<br>    <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">echo &apos;[[ -s &quot;$HOME/.rvm/scripts/rvm&quot; ]] &amp;&amp; . &quot;$HOME/.rvm/scripts/rvm&quot; # Load RVM function&apos; &gt;&gt; ~/.bash_profile</span><br></pre></td></tr></table></figure></p>
+<p>####3.裝Ruby，官方說明是安裝1.9.2，但由於我是使用Xcode 4.2, 在裝完RVM時，應該會警告你，建議使用4.1在編譯1.9.2才不會出錯，但我實在不想重裝Xcode, 就只能裝Ruby1.9.3以後的版本，但要注意的是，直接安裝會有<a href="http://stackoverflow.com/questions/8032824/cant-install-ruby-under-lion-with-rvm-gcc-issues" target="_blank">non-LLVM</a>問題, 所以使用以下方法安裝<br>    <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">rvm install 1.9.3 --with-gcc=clang</span><br></pre></td></tr></table></figure></p>
+<p>####3.1 還有這個動作<br>    <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">rvm use 1.9.3</span><br></pre></td></tr></table></figure></p>
+<p>####4.接著就下載Octopress 及 相關軟體<br><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">git <span class="built_in">clone</span> git://github.com/imathis/octopress.git</span><br><span class="line"><span class="built_in">cd</span> octopress</span><br><span class="line">gem install bundler </span><br><span class="line">bundle install </span><br><span class="line">rake install</span><br></pre></td></tr></table></figure></p>
+<p>####5.然後在octopress目錄下, 我有幾個地方有設定的:<br><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">_config.yml  <span class="comment"># blog主要設定配置檔</span></span><br><span class="line">config.rb    <span class="comment"># Compass 的設定檔</span></span><br><span class="line">Rakefile     <span class="comment"># rake產生及發怖網頁設定檔</span></span><br></pre></td></tr></table></figure></p>
+<p>####6.建立新文章!<br>新文章會放在<code>source/_posts</code>，使用markdown檔案方式寫文<br><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">rake new_post[<span class="string">"title"</span>]</span><br></pre></td></tr></table></figure></p>
+<p>####7.部署到Github! <a href="http://octopress.org/docs/deploying/github/" target="_blank">官方說明</a><br>我是採用Project pages (gh-pages)的方式，這邊就照作啦~</p>
+<p>####8.改一下版型吧!<br>先到<code>config.rb</code>替sass加上debug的標記，好讓Firebug只知道樣式在那一個檔裡，所有樣式檔都放在sass資料夾下，建議是把要改的樣式寫在<code>sass/custom/_styles.scss</code>裡，因為這個檔是最後載入，可以覆寫之前的樣式，一方面有改版時，只要覆蓋custom資料夾就好. <br><br><img src="http://i148.photobucket.com/albums/s20/canwen/blog/firebug_sass.png" alt="firebug sass"><br><figure class="highlight rb"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sass_options = &#123;<span class="symbol">:debug_info</span> =&gt; <span class="literal">true</span>&#125;</span><br><span class="line">line_comments = <span class="literal">true</span></span><br></pre></td></tr></table></figure></p>
+<p>####9.自訂網址<br>新增<code>CNAME</code>檔案到source下，<code>CNAME</code>檔裡填寫自訂網址，一樣要怖署到Github上<br><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">echo</span> <span class="string">'blog.visioncan.com'</span> &gt;&gt; <span class="built_in">source</span>/CNAME</span><br></pre></td></tr></table></figure><br>接著就要到你註冊的網域新增CNAME, 我是在Hostmonster裡設定</p>
+<pre><code>1. DNS Zone Editor -&gt; 選擇domain 
+2. Add DNS Record
+   Host Record: blog
+   TTL: 不改
+   Type: CNAME
+   Points To: visioncan.github.com
+</code></pre><p>等dns生效吧!</p>
+<h4 id="附-rake-功能"><a href="#附-rake-功能" class="headerlink" title="附:rake 功能"></a>附:rake 功能</h4><p><code>rake -T</code><br><figure class="highlight rb"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line">rake clean                 <span class="comment"># Clean out caches: .pygments-cache, .gist-cache, .sass-cache</span></span><br><span class="line">rake copydot[source,dest]  <span class="comment"># copy dot files for deployment</span></span><br><span class="line">rake deploy                <span class="comment"># Default deploy task</span></span><br><span class="line">rake gen_deploy            <span class="comment"># Generate website and deploy</span></span><br><span class="line">rake generate              <span class="comment"># Generate jekyll site</span></span><br><span class="line">rake install[theme]        <span class="comment"># Initial setup for Octopress: copies the default theme into the path of Jekyll's generator.</span></span><br><span class="line">rake integrate             <span class="comment"># Move all stashed posts back into the posts directory, ready for site generation.</span></span><br><span class="line">rake isolate[filename]     <span class="comment"># Move all other posts than the one currently being worked on to a temporary stash location (stash) so regener...</span></span><br><span class="line">rake list                  <span class="comment"># list tasks</span></span><br><span class="line">rake new_page[filename]    <span class="comment"># Create a new page in source/(filename)/index.markdown</span></span><br><span class="line">rake new_post[title]       <span class="comment"># Begin a new post in source/_posts</span></span><br><span class="line">rake preview               <span class="comment"># preview the site in a web browser</span></span><br><span class="line">rake push                  <span class="comment"># deploy public directory to github pages</span></span><br><span class="line">rake rsync                 <span class="comment"># Deploy website via rsync</span></span><br><span class="line">rake set_root_dir[dir]     <span class="comment"># Update configurations to support publishing to root or sub directory</span></span><br><span class="line">rake setup_github_pages    <span class="comment"># Set up _deploy folder and deploy branch for Github Pages deployment</span></span><br><span class="line">rake update_source[theme]  <span class="comment"># Move source to source.old, install source theme updates, replace source/_includes/navigation.html with sourc...</span></span><br><span class="line">rake update_style[theme]   <span class="comment"># Move sass to sass.old, install sass theme updates, replace sass/custom with sass.old/custom</span></span><br><span class="line">rake watch                 <span class="comment"># Watch the site and regenerate when it changes</span></span><br></pre></td></tr></table></figure></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://blog.visioncan.com/2011/install-octopress/" data-id="cjbl1bucw0001zuz6njgwq7h3" class="article-share-link">Share</a>
+      
+        <a href="http://blog.visioncan.com/2011/install-octopress/#disqus_thread" class="article-comment-link">Comments</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Octopress/">Octopress</a></li></ul>
+
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2011/apple-mac-screen-font-smoothing/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          Mac螢幕字體平滑方式修改
+        
+      </div>
+    </a>
+  
+  
+</nav>
+
+  
+</article>
+
+
+<section id="comments">
+  <div id="disqus_thread">
+    <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  </div>
+</section>
+</section>
+        
+          <aside id="sidebar">
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Categories</h3>
+    <div class="widget">
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Alfred/">Alfred</a><span class="category-list-count">3</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Blog/">Blog</a><span class="category-list-count">3</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Cinemagraphs/">Cinemagraphs</a><span class="category-list-count">3</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Development/">Development</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/JavaScript/">JavaScript</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Mac/">Mac</a><span class="category-list-count">6</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Objective-C/">Objective-C</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Plex/">Plex</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Theme/">Theme</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/scss/">scss</a><span class="category-list-count">2</span></li></ul>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tag Cloud</h3>
+    <div class="widget tagcloud">
+      <a href="/tags/Alfred/" style="font-size: 13.33px;">Alfred</a> <a href="/tags/App/" style="font-size: 13.33px;">App</a> <a href="/tags/AppleTV3/" style="font-size: 10px;">AppleTV3</a> <a href="/tags/Chrome/" style="font-size: 10px;">Chrome</a> <a href="/tags/Cinemagraphs/" style="font-size: 16.67px;">Cinemagraphs</a> <a href="/tags/CocoaPods/" style="font-size: 10px;">CocoaPods</a> <a href="/tags/Font/" style="font-size: 10px;">Font</a> <a href="/tags/Fusion-Drive/" style="font-size: 10px;">Fusion Drive</a> <a href="/tags/JavaScript/" style="font-size: 10px;">JavaScript</a> <a href="/tags/OSX/" style="font-size: 20px;">OSX</a> <a href="/tags/Objective-C/" style="font-size: 13.33px;">Objective-C</a> <a href="/tags/Octopress/" style="font-size: 13.33px;">Octopress</a> <a href="/tags/Plex/" style="font-size: 10px;">Plex</a> <a href="/tags/SSD/" style="font-size: 10px;">SSD</a> <a href="/tags/Sketch/" style="font-size: 10px;">Sketch</a> <a href="/tags/Theme/" style="font-size: 10px;">Theme</a> <a href="/tags/Xcode/" style="font-size: 13.33px;">Xcode</a> <a href="/tags/apple101/" style="font-size: 13.33px;">apple101</a> <a href="/tags/blog/" style="font-size: 10px;">blog</a> <a href="/tags/brew/" style="font-size: 10px;">brew</a> <a href="/tags/cask/" style="font-size: 10px;">cask</a> <a href="/tags/compass/" style="font-size: 10px;">compass</a> <a href="/tags/css/" style="font-size: 10px;">css</a> <a href="/tags/gif/" style="font-size: 16.67px;">gif</a> <a href="/tags/hexo/" style="font-size: 10px;">hexo</a> <a href="/tags/iOS/" style="font-size: 10px;">iOS</a> <a href="/tags/itunes/" style="font-size: 10px;">itunes</a> <a href="/tags/mac/" style="font-size: 10px;">mac</a> <a href="/tags/osx/" style="font-size: 10px;">osx</a> <a href="/tags/quick-look/" style="font-size: 10px;">quick look</a> <a href="/tags/sass/" style="font-size: 10px;">sass</a> <a href="/tags/scss/" style="font-size: 13.33px;">scss</a> <a href="/tags/sublimetext/" style="font-size: 10px;">sublimetext</a> <a href="/tags/touch/" style="font-size: 10px;">touch</a> <a href="/tags/unboxing/" style="font-size: 10px;">unboxing</a> <a href="/tags/workflow/" style="font-size: 10px;">workflow</a>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recents</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2014/moved-to-sketch/">來用 Sketch 畫你的 UI 吧</a>
+          </li>
+        
+          <li>
+            <a href="/2014/introducing-cask/">Cask 讓 OSX 安裝軟體更有效率</a>
+          </li>
+        
+          <li>
+            <a href="/2014/unboxing-macbookpro-retina/">港版 MacBookPro Retina 新體驗</a>
+          </li>
+        
+          <li>
+            <a href="/2014/migrate-to-hexo/">Migrate to Hexo blog 順便作個小模組</a>
+          </li>
+        
+          <li>
+            <a href="/2013/xcode-sublime-themes-fonts/">Xcode and sublimetext themes fonts</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+    
+  
+    <div class="widget-wrap">
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:inline-block;width:300px;height:250px"
+     data-ad-client="ca-pub-9186479821353585"
+     data-ad-slot="3142020137"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2017 visioncan<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+<script>
+  var disqus_shortname = 'vcan';
+  
+  var disqus_url = 'http://blog.visioncan.com/2011/install-octopress/';
+  
+  (function(){
+    var dsq = document.createElement('script');
+    dsq.type = 'text/javascript';
+    dsq.async = true;
+    dsq.src = '//go.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/script.js"></script>
+  </div>
+</body>
+</html>

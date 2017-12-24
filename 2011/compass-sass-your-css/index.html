@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>用強大的compass+sass寫css | VISIONCAN</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="keywords" content="compass,sass,scss,css">
+  <meta name="description" content="注意!我不想再誤人子弟，請不要再用 Compass 了，原因請看這裡 → 之前介紹sass/scss了，現在要來談談Compass，Compass是一個sass的Framework，簡單的說是將原來在sass裡要寫很多次的樣式，Compass都幫你寫好了，再加一些常用的功能，並簡化了寫法，讓你寫css可以不必吹灰之力就寫出你要的效果! 呃~ 也沒這麼誇張!但速度快了不少就是!">
+<meta name="keywords" content="compass,sass,scss,css">
+<meta property="og:type" content="article">
+<meta property="og:title" content="用強大的compass+sass寫css">
+<meta property="og:url" content="http://blog.visioncan.com/2011/compass-sass-your-css/index.html">
+<meta property="og:site_name" content="VISIONCAN">
+<meta property="og:description" content="注意!我不想再誤人子弟，請不要再用 Compass 了，原因請看這裡 → 之前介紹sass/scss了，現在要來談談Compass，Compass是一個sass的Framework，簡單的說是將原來在sass裡要寫很多次的樣式，Compass都幫你寫好了，再加一些常用的功能，並簡化了寫法，讓你寫css可以不必吹灰之力就寫出你要的效果! 呃~ 也沒這麼誇張!但速度快了不少就是!">
+<meta property="og:locale" content="zh-TW">
+<meta property="og:image" content="http://s148.photobucket.com/albums/s20/canwen/blog/compass-logo.png">
+<meta property="og:image" content="http://i148.photobucket.com/albums/s20/canwen/blog/compass_creat.png">
+<meta property="og:image" content="http://i148.photobucket.com/albums/s20/canwen/blog/compass_sprite.jpg">
+<meta property="og:updated_time" content="2017-06-18T09:13:42.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="用強大的compass+sass寫css">
+<meta name="twitter:description" content="注意!我不想再誤人子弟，請不要再用 Compass 了，原因請看這裡 → 之前介紹sass/scss了，現在要來談談Compass，Compass是一個sass的Framework，簡單的說是將原來在sass裡要寫很多次的樣式，Compass都幫你寫好了，再加一些常用的功能，並簡化了寫法，讓你寫css可以不必吹灰之力就寫出你要的效果! 呃~ 也沒這麼誇張!但速度快了不少就是!">
+<meta name="twitter:image" content="http://s148.photobucket.com/albums/s20/canwen/blog/compass-logo.png">
+<meta name="twitter:creator" content="@visioncan">
+  
+    <link rel="alternative" href="/atom.xml" title="VISIONCAN" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.ico">
+  
+  <link href="http://fonts.googleapis.com/css?family=Source+Code+Pro|Open+Sans:400,700|Lato:100,400" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="/css/style.css">
+  
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-1535239-6']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+</head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">
+            
+                <img src="/css/images/logo.svg" alt="VISIONCAN">
+                <span>VISIONCAN</span>
+            
+        </a>
+      </h1>
+      
+        <h2 id="subtitle-wrap">
+          <a href="/" id="subtitle">Design with Code!</a>
+        </h2>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://blog.visioncan.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+
+      <div class="outer">
+        <section id="main"><article id="post-compass-sass-your-css" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2011/compass-sass-your-css/" class="article-date">
+  <time datetime="2011-11-24T16:07:00.000Z" itemprop="datePublished">2011-11-25</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/scss/">scss</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      用強大的compass+sass寫css
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>注意!<br>我不想再誤人子弟，請不要再用 Compass 了，原因請看這裡 →</p>
+<img src="http://s148.photobucket.com/albums/s20/canwen/blog/compass-logo.png" class="noborder" title="compass"><br><br>之前<a href="http://blog.visioncan.com/2011/sass-scss-your-css/" title="使用scss來加速寫css吧!">介紹sass/scss</a>了，現在要來談談Compass，Compass是一個sass的Framework，簡單的說是將原來在sass裡要寫很多次的樣式，Compass都幫你寫好了，再加一些常用的功能，並簡化了寫法，讓你寫css可以不必吹灰之力就寫出你要的效果! 呃~ 也沒這麼誇張!但速度快了不少就是!<br><br><a id="more"></a>
+<p>###安裝Compass<br>在終端機輸入以下就裝完啦!<br><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">gem update --system  <span class="comment">#先更新gem</span></span><br><span class="line">gem install compass  <span class="comment">#安裝Compass</span></span><br></pre></td></tr></table></figure></p>
+<p>安裝時Compass，如果沒有安裝sass，會自動安裝。</p>
+<p>###建立Compass專案吧<br><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">compass creat myproject</span><br></pre></td></tr></table></figure></p>
+<p>myproject是你的專案名字<br><img src="http://i148.photobucket.com/albums/s20/canwen/blog/compass_creat.png" class="noborder" title="compass creat"><br>預設會產生如上面那些檔，接著可以在<code>config.rb</code>裡作設定css、sass、images等的資料夾設定，再依自已喜好吧!<br>接著在終端機輸入<br><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">compass watch</span><br></pre></td></tr></table></figure></p>
+<p>此時你就可以開始編輯你的<code>scss</code>檔了，編輯完存檔，compass會馬上編譯css到你設定的資料夾內，一樣可以按<code>command + c</code> 取消。<br>下次要再編輯就再watch就好</p>
+<p>###來看看有多方便吧</p>
+<ol>
+<li><strong>reset</strong> <figure class="highlight scss"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">@<span class="keyword">import</span> <span class="string">"compass/reset"</span>;</span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+<p>這樣reset的css就幫你寫好了! 超方便!</p>
+<ol>
+<li><strong>常見的css3圓角</strong><figure class="highlight scss"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">@<span class="keyword">import</span> <span class="string">"compass/css3"</span>;</span><br><span class="line"><span class="selector-class">.box</span>&#123;</span><br><span class="line">	@<span class="keyword">include</span> border-radius(<span class="number">5px</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+<p>只要先<code>import &quot;compass/css3&quot;</code>, 之後就可以使用所有css3 的內容，如border-radius、box-shadow、gradient…等，使用方式是<code>@include</code>，其實是compass幫你寫好了<code>@mixin</code>，你只要會用就好，而compass厲害的就是會同時幫你產生各個瀏覽器相對應的css，上面那行所產生的結果：<br><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">-moz-border-radius</span>: 5<span class="selector-tag">px</span>;</span><br><span class="line"><span class="selector-tag">-webkit-border-radius</span>: 5<span class="selector-tag">px</span>;</span><br><span class="line"><span class="selector-tag">-o-border-radius</span>: 5<span class="selector-tag">px</span>;</span><br><span class="line"><span class="selector-tag">-ms-border-radius</span>: 5<span class="selector-tag">px</span>;</span><br><span class="line"><span class="selector-tag">-khtml-border-radius</span>: 5<span class="selector-tag">px</span>;</span><br><span class="line"><span class="selector-tag">border-radius</span>: 5<span class="selector-tag">px</span>;</span><br></pre></td></tr></table></figure></p>
+<p>所有css都幫你產生好了，再也不用全寫了，加上寫這麼多重復的css只會更難閱讀，尤其我非常不愛css屬性重寫再重寫又斷行，搞得打開css檔來，1~2千多行! 維護真的相當累人!加上sass的特性是巢狀結構，讓整個css乾淨清楚不少!</p>
+<ol>
+<li><strong>css3漸層</strong> <figure class="highlight scss"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-class">.box</span>&#123;</span><br><span class="line">	@<span class="keyword">include</span> background(linear-gradient(lighten(red, 20%), red));  <span class="comment">/*線性漸層*/</span></span><br><span class="line">&#125;</span><br><span class="line">```	</span><br><span class="line">一行就搞定所有瀏覽器! 其中`lighten(red, 20%)`是使用sass的加亮顏色功能。</span><br><span class="line"></span><br><span class="line">4. **inline <span class="attribute">background</span>**</span><br><span class="line">```scss</span><br><span class="line"><span class="attribute">background</span>: inline-image(<span class="string">"images/fav_ico.png"</span>) no-repeat;</span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAALAgMAAADtpS7uAAAADFBMVEXnZog0czXs2ZTWSIKDRS6LVsKnx3jhohrRAj8QAAAABJRU5ErkJggg...') no-repeat;</span><br></pre></td></tr></table></figure>
+<p>如果要作inline background不用像之前一樣還要自已轉base64再貼到css了，那天圖片有更新又再得重作一次，現在compass幫你作完了!</p>
+<ol>
+<li><strong>Sprite</strong> <br><br>我覺得…做Sprite是css designer的痛吧!維護非常費工，還要計算座標，萬一改個圖，就要座標重算!css再寫，而且改一個可能動全身!<br><br>哇~ 現在Compass都幫你搞定啦! Compass真是太強大了，三個願望一次滿足!<br>只要將要合併的圖片放在同一個資料夾下，compass會自動產生另一張合併檔，同時設定好座標。<br><img src="http://i148.photobucket.com/albums/s20/canwen/blog/compass_sprite.jpg" class="noborder" title="compass sprite">
+<figure class="highlight scss"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">@<span class="keyword">import</span> <span class="string">"icons/*.png"</span>;</span><br><span class="line">@<span class="keyword">include</span> all-icons-sprites;  <span class="comment">//all-後面接著的「icons」代表著是資料夾名稱</span></span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-class">.icons-sprite</span>,</span><br><span class="line"><span class="selector-class">.icons-facebook</span>,</span><br><span class="line"><span class="selector-class">.icons-twitter</span>,</span><br><span class="line"><span class="selector-class">.icons-yahoo</span> &#123;  <span class="attribute">background</span>: <span class="built_in">url</span>(<span class="string">'icons-s0859518ac7.png'</span>) no-repeat; &#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.icons-facebook</span> &#123;  <span class="attribute">background-position</span>: <span class="number">0</span> <span class="number">0</span>; &#125;</span><br><span class="line"><span class="selector-class">.icons-twitter</span> &#123;  <span class="attribute">background-position</span>: <span class="number">0</span> -<span class="number">32px</span>; &#125;</span><br><span class="line"><span class="selector-class">.icons-yahoo</span> &#123;  <span class="attribute">background-position</span>: <span class="number">0</span> -<span class="number">64px</span>; &#125;</span><br></pre></td></tr></table></figure>
+<p>更多compass sprite教學及設定:<br><a href="http://compass-style.org/help/tutorials/spriting/" target="_blank" rel="noopener">http://compass-style.org/help/tutorials/spriting/</a></p>
+<p>其它還有更多功能:<br><a href="http://compass-style.org/reference/compass/" target="_blank" rel="noopener">http://compass-style.org/reference/compass/</a></p>
+<p>##debug呢?</p>
+<figure class="highlight rb"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">output_style = <span class="symbol">:compressed</span>     <span class="comment">#css壓縮設定</span></span><br><span class="line">sass_options = &#123;<span class="symbol">:debug_info</span> =&gt; <span class="literal">true</span>&#125;   <span class="comment">#debug</span></span><br></pre></td></tr></table></figure>
+<p>開啟<code>config.rb</code>設定檔，加入上面文字後，重新產生css，Firebug就可以看到該樣式是寫在那一行了，<a href="http://blog.visioncan.com/2011/sass-scss-your-css/#debug" title="sass debug">sass debug外掛安裝說明</a>。</p>
+<p>Compass真的讓css designer輕鬆了不少，對了，目前我使用的blog <a href="http://octopress.org/" target="_blank">Octopress</a>也是使用Compass，這也是我想用這套blog系統的其中一個原因，寫css真的回不去了!! 下個專案改用Compass吧!</p>
+<p>##Sass &amp; Compass投影片介紹<br>來看看這份相當詳細又實用的投影片介紹吧!</p>
+<script src="http://speakerdeck.com/embed/4eb80921b029470054011d3f.js"></script>
+
+
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://blog.visioncan.com/2011/compass-sass-your-css/" data-id="cjbl1bud20005zuz6a64vscq1" class="article-share-link">Share</a>
+      
+        <a href="http://blog.visioncan.com/2011/compass-sass-your-css/#disqus_thread" class="article-comment-link">Comments</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/compass/">compass</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/css/">css</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/scss/">scss</a></li></ul>
+
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2012/apple-101-stop-itunes-auto-sync/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          iTunes停用自動同步
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2011/sass-scss-your-css/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">使用scss來加速寫css吧!</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+
+<section id="comments">
+  <div id="disqus_thread">
+    <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  </div>
+</section>
+</section>
+        
+          <aside id="sidebar">
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Categories</h3>
+    <div class="widget">
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Alfred/">Alfred</a><span class="category-list-count">3</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Blog/">Blog</a><span class="category-list-count">3</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Cinemagraphs/">Cinemagraphs</a><span class="category-list-count">3</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Development/">Development</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/JavaScript/">JavaScript</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Mac/">Mac</a><span class="category-list-count">6</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Objective-C/">Objective-C</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Plex/">Plex</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Theme/">Theme</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/scss/">scss</a><span class="category-list-count">2</span></li></ul>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tag Cloud</h3>
+    <div class="widget tagcloud">
+      <a href="/tags/Alfred/" style="font-size: 13.33px;">Alfred</a> <a href="/tags/App/" style="font-size: 13.33px;">App</a> <a href="/tags/AppleTV3/" style="font-size: 10px;">AppleTV3</a> <a href="/tags/Chrome/" style="font-size: 10px;">Chrome</a> <a href="/tags/Cinemagraphs/" style="font-size: 16.67px;">Cinemagraphs</a> <a href="/tags/CocoaPods/" style="font-size: 10px;">CocoaPods</a> <a href="/tags/Font/" style="font-size: 10px;">Font</a> <a href="/tags/Fusion-Drive/" style="font-size: 10px;">Fusion Drive</a> <a href="/tags/JavaScript/" style="font-size: 10px;">JavaScript</a> <a href="/tags/OSX/" style="font-size: 20px;">OSX</a> <a href="/tags/Objective-C/" style="font-size: 13.33px;">Objective-C</a> <a href="/tags/Octopress/" style="font-size: 13.33px;">Octopress</a> <a href="/tags/Plex/" style="font-size: 10px;">Plex</a> <a href="/tags/SSD/" style="font-size: 10px;">SSD</a> <a href="/tags/Sketch/" style="font-size: 10px;">Sketch</a> <a href="/tags/Theme/" style="font-size: 10px;">Theme</a> <a href="/tags/Xcode/" style="font-size: 13.33px;">Xcode</a> <a href="/tags/apple101/" style="font-size: 13.33px;">apple101</a> <a href="/tags/blog/" style="font-size: 10px;">blog</a> <a href="/tags/brew/" style="font-size: 10px;">brew</a> <a href="/tags/cask/" style="font-size: 10px;">cask</a> <a href="/tags/compass/" style="font-size: 10px;">compass</a> <a href="/tags/css/" style="font-size: 10px;">css</a> <a href="/tags/gif/" style="font-size: 16.67px;">gif</a> <a href="/tags/hexo/" style="font-size: 10px;">hexo</a> <a href="/tags/iOS/" style="font-size: 10px;">iOS</a> <a href="/tags/itunes/" style="font-size: 10px;">itunes</a> <a href="/tags/mac/" style="font-size: 10px;">mac</a> <a href="/tags/osx/" style="font-size: 10px;">osx</a> <a href="/tags/quick-look/" style="font-size: 10px;">quick look</a> <a href="/tags/sass/" style="font-size: 10px;">sass</a> <a href="/tags/scss/" style="font-size: 13.33px;">scss</a> <a href="/tags/sublimetext/" style="font-size: 10px;">sublimetext</a> <a href="/tags/touch/" style="font-size: 10px;">touch</a> <a href="/tags/unboxing/" style="font-size: 10px;">unboxing</a> <a href="/tags/workflow/" style="font-size: 10px;">workflow</a>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recents</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2014/moved-to-sketch/">來用 Sketch 畫你的 UI 吧</a>
+          </li>
+        
+          <li>
+            <a href="/2014/introducing-cask/">Cask 讓 OSX 安裝軟體更有效率</a>
+          </li>
+        
+          <li>
+            <a href="/2014/unboxing-macbookpro-retina/">港版 MacBookPro Retina 新體驗</a>
+          </li>
+        
+          <li>
+            <a href="/2014/migrate-to-hexo/">Migrate to Hexo blog 順便作個小模組</a>
+          </li>
+        
+          <li>
+            <a href="/2013/xcode-sublime-themes-fonts/">Xcode and sublimetext themes fonts</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+    
+  
+    <div class="widget-wrap">
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:inline-block;width:300px;height:250px"
+     data-ad-client="ca-pub-9186479821353585"
+     data-ad-slot="3142020137"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2017 visioncan<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+<script>
+  var disqus_shortname = 'vcan';
+  
+  var disqus_url = 'http://blog.visioncan.com/2011/compass-sass-your-css/';
+  
+  (function(){
+    var dsq = document.createElement('script');
+    dsq.type = 'text/javascript';
+    dsq.async = true;
+    dsq.src = '//go.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/script.js"></script>
+  </div>
+</body>
+</html>
